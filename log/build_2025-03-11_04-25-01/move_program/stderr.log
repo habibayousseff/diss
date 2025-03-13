@@ -1,0 +1,8 @@
+In file included from [01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:290[m[K:
+[01m[K/home/habibahassan/project/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:292[m[K:
+[01m[K/home/habibahassan/project/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K

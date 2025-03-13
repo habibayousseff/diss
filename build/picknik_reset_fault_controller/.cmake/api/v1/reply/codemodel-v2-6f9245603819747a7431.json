@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f91d585b28d60a8e5618.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "picknik_reset_fault_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "picknik_reset_fault_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-picknik_reset_fault_controller-c3e21ff7eddc1ac4fe65.json",
+					"name" : "picknik_reset_fault_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "picknik_reset_fault_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-picknik_reset_fault_controller_uninstall-6c0e364d714cee370b57.json",
+					"name" : "picknik_reset_fault_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-497727ca3eca604979f4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/habibahassan/project/build/picknik_reset_fault_controller",
+		"source" : "/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

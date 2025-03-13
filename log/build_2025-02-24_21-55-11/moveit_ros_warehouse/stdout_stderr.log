@@ -1,0 +1,63 @@
+[ 40%] Built target moveit_warehouse
+[ 50%] Built target moveit_warehouse_services
+[ 60%] Built target moveit_warehouse_broadcast
+[ 70%] Built target moveit_warehouse_save_as_text
+[ 80%] Built target moveit_save_to_warehouse
+[ 90%] Built target moveit_warehouse_import_from_text
+[100%] Built target moveit_init_demo_warehouse
+-- Install configuration: "Release"
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse" to ""
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" to ""
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" to ""
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" to ""
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" to ""
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services" to ""
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/trajectory_constraints_storage.h
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/trajectory_constraints_storage.hpp
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/state_storage.hpp
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/planning_scene_storage.hpp
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/moveit_message_storage.hpp
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/planning_scene_storage.h
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/state_storage.h
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/moveit_message_storage.h
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/warehouse_connector.hpp
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/constraints_storage.h
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/planning_scene_world_storage.h
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/constraints_storage.hpp
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/planning_scene_world_storage.hpp
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit/warehouse/warehouse_connector.h
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/include/moveit_ros_warehouse/moveit_warehouse_export.h
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.13.0
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.13.0" to ""
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseTargetsExport.cmake
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseTargetsExport-release.cmake
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+-- Installing: /home/habibahassan/project/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml

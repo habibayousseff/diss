@@ -1,0 +1,24 @@
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:[m[K In constructor ‘[01m[KMoveProgram::[01;32m[KMoveProgram[m[K()[m[K’:
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:329:84:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kshared_from_this[m[K’ is ambiguous
+  329 |     move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>([01;31m[Kshared_from_this[m[K(), "ur_manipulator");
+      |                                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:282[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:938:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() const [35m[K[with _Tp = MoveProgram][m[K[m[K’
+  938 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:934:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() [35m[K[with _Tp = MoveProgram][m[K[m[K’
+  934 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:938:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() const [35m[K[with _Tp = rclcpp::Node][m[K[m[K’
+  938 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:934:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() [35m[K[with _Tp = rclcpp::Node][m[K[m[K’
+  934 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:354:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveItErrorCode[m[K’ has not been declared
+  354 |     if (planning_result == moveit::planning_interface::[01;31m[KMoveItErrorCode[m[K::SUCCESS)
+      |                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

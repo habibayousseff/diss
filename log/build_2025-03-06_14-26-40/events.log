@@ -1,0 +1,382 @@
+[0.000000] (-) TimerEvent: {}
+[0.000546] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000763] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000933] (-) JobUnselected: {'identifier': 'gz_ros2_control'}
+[0.001178] (-) JobUnselected: {'identifier': 'gz_ros2_control_demos'}
+[0.001329] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.001505] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.005436] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.006075] (-) JobUnselected: {'identifier': 'kinova_gen3_lite_moveit_config'}
+[0.006248] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.006410] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.006600] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.006757] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.006904] (-) JobUnselected: {'identifier': 'moveit'}
+[0.007053] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.007244] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.007391] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.007538] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.007683] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.007871] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.008036] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.008271] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.008450] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.008598] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.008744] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.008893] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.009348] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.009930] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.010078] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.010241] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.010378] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.010517] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.010647] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.010820] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.010955] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.011084] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.011216] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.011366] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.011572] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.011720] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.011850] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.012003] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.012130] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.012259] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.012395] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.012565] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.012704] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.012834] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.012964] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.013121] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.013250] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.013378] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.013509] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.013638] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.014237] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.014460] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.014591] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.014722] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.014881] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.015043] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.015173] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.015301] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.015428] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.015610] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.015755] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.015898] (-) JobUnselected: {'identifier': 'picknik_reset_fault_controller'}
+[0.016061] (-) JobUnselected: {'identifier': 'picknik_twist_controller'}
+[0.016263] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.016406] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.016537] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.016667] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.017363] (-) JobUnselected: {'identifier': 'robotiq_driver'}
+[0.017551] (-) JobUnselected: {'identifier': 'robotiq_hardware_tests'}
+[0.017702] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.017843] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.018127] (-) JobUnselected: {'identifier': 'serial'}
+[0.018274] (-) JobUnselected: {'identifier': 'ur'}
+[0.018417] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.018618] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.018766] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.018906] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.019048] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.019236] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.019379] (-) JobUnselected: {'identifier': 'ur_simulation_gz'}
+[0.019536] (move_program) JobQueued: {'identifier': 'move_program', 'dependencies': OrderedDict({'moveit_common': '/home/habibahassan/project/install/moveit_common', 'moveit_configs_utils': '/home/habibahassan/project/install/moveit_configs_utils', 'moveit_msgs': '/home/habibahassan/project/install/moveit_msgs', 'moveit_resources_fanuc_description': '/home/habibahassan/project/install/moveit_resources_fanuc_description', 'moveit_resources_panda_description': '/home/habibahassan/project/install/moveit_resources_panda_description', 'moveit_resources_pr2_description': '/home/habibahassan/project/install/moveit_resources_pr2_description', 'moveit_resources_fanuc_moveit_config': '/home/habibahassan/project/install/moveit_resources_fanuc_moveit_config', 'moveit_resources_panda_moveit_config': '/home/habibahassan/project/install/moveit_resources_panda_moveit_config', 'moveit_core': '/home/habibahassan/project/install/moveit_core', 'moveit_ros_occupancy_map_monitor': '/home/habibahassan/project/install/moveit_ros_occupancy_map_monitor', 'moveit_simple_controller_manager': '/home/habibahassan/project/install/moveit_simple_controller_manager', 'moveit_ros_planning': '/home/habibahassan/project/install/moveit_ros_planning', 'moveit_kinematics': '/home/habibahassan/project/install/moveit_kinematics', 'moveit_ros_robot_interaction': '/home/habibahassan/project/install/moveit_ros_robot_interaction', 'moveit_ros_warehouse': '/home/habibahassan/project/install/moveit_ros_warehouse', 'moveit_ros_move_group': '/home/habibahassan/project/install/moveit_ros_move_group', 'moveit_ros_planning_interface': '/home/habibahassan/project/install/moveit_ros_planning_interface', 'moveit_ros_visualization': '/home/habibahassan/project/install/moveit_ros_visualization', 'moveit_servo': '/home/habibahassan/project/install/moveit_servo'})}
+[0.023434] (move_program) JobStarted: {'identifier': 'move_program'}
+[0.098392] (-) TimerEvent: {}
+[0.199578] (-) TimerEvent: {}
+[0.300777] (-) TimerEvent: {}
+[0.401620] (-) TimerEvent: {}
+[0.502357] (-) TimerEvent: {}
+[0.603091] (-) TimerEvent: {}
+[0.705501] (-) TimerEvent: {}
+[0.806217] (-) TimerEvent: {}
+[0.907040] (-) TimerEvent: {}
+[1.007892] (-) TimerEvent: {}
+[1.108734] (-) TimerEvent: {}
+[1.209699] (-) TimerEvent: {}
+[1.310428] (-) TimerEvent: {}
+[1.411156] (-) TimerEvent: {}
+[1.511974] (-) TimerEvent: {}
+[1.612796] (-) TimerEvent: {}
+[1.713788] (-) TimerEvent: {}
+[1.816010] (-) TimerEvent: {}
+[1.917981] (-) TimerEvent: {}
+[2.018755] (-) TimerEvent: {}
+[2.120423] (-) TimerEvent: {}
+[2.221052] (-) TimerEvent: {}
+[2.321737] (-) TimerEvent: {}
+[2.422376] (-) TimerEvent: {}
+[2.523067] (-) TimerEvent: {}
+[2.623724] (-) TimerEvent: {}
+[2.725564] (-) TimerEvent: {}
+[2.826692] (-) TimerEvent: {}
+[2.927653] (-) TimerEvent: {}
+[3.028447] (-) TimerEvent: {}
+[3.130678] (-) TimerEvent: {}
+[3.231550] (-) TimerEvent: {}
+[3.332118] (-) TimerEvent: {}
+[3.432883] (-) TimerEvent: {}
+[3.533595] (-) TimerEvent: {}
+[3.634193] (-) TimerEvent: {}
+[3.734659] (-) TimerEvent: {}
+[3.835163] (-) TimerEvent: {}
+[3.935745] (-) TimerEvent: {}
+[4.036752] (-) TimerEvent: {}
+[4.137449] (-) TimerEvent: {}
+[4.238131] (-) TimerEvent: {}
+[4.342371] (-) TimerEvent: {}
+[4.442800] (-) TimerEvent: {}
+[4.543260] (-) TimerEvent: {}
+[4.643824] (-) TimerEvent: {}
+[4.744308] (-) TimerEvent: {}
+[4.844815] (-) TimerEvent: {}
+[4.945338] (-) TimerEvent: {}
+[5.045827] (-) TimerEvent: {}
+[5.146459] (-) TimerEvent: {}
+[5.247063] (-) TimerEvent: {}
+[5.347511] (-) TimerEvent: {}
+[5.448163] (-) TimerEvent: {}
+[5.548712] (-) TimerEvent: {}
+[5.649374] (-) TimerEvent: {}
+[5.749821] (-) TimerEvent: {}
+[5.850320] (-) TimerEvent: {}
+[5.919956] (move_program) JobProgress: {'identifier': 'move_program', 'progress': 'cmake'}
+[5.921829] (move_program) JobProgress: {'identifier': 'move_program', 'progress': 'build'}
+[5.922841] (move_program) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/habibahassan/project/build/move_program', '--', '-j8', '-l8'], 'cwd': '/home/habibahassan/project/build/move_program', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/habibahassan/.gazebo/models', 'USER': 'habibahassan', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/habibahassan/project/install/moveit_servo/lib:/home/habibahassan/project/install/moveit_ros_visualization/lib:/home/habibahassan/project/install/moveit_ros_planning_interface/lib:/home/habibahassan/project/install/moveit_ros_move_group/lib:/home/habibahassan/project/install/moveit_ros_warehouse/lib:/home/habibahassan/project/install/moveit_ros_robot_interaction/lib:/home/habibahassan/project/install/moveit_kinematics/lib:/home/habibahassan/project/install/moveit_ros_planning/lib:/home/habibahassan/project/install/moveit_simple_controller_manager/lib:/home/habibahassan/project/install/moveit_ros_occupancy_map_monitor/lib:/home/habibahassan/project/install/moveit_core/lib:/home/habibahassan/project/install/moveit_msgs/lib:/home/habibahassan/project/install/ur_robot_driver/lib:/home/habibahassan/project/install/ur_controllers/lib:/home/habibahassan/project/install/ur_dashboard_msgs/lib:/home/habibahassan/project/install/robotiq_driver/lib:/home/habibahassan/project/install/serial/lib:/home/habibahassan/project/install/moveit_visual_tools/lib:/home/habibahassan/project/install/rviz_visual_tools/lib:/home/habibahassan/project/install/moveit_task_constructor_visualization/lib:/home/habibahassan/project/install/moveit_task_constructor_demo/lib:/home/habibahassan/project/install/moveit_task_constructor_capabilities/lib:/home/habibahassan/project/install/moveit_task_constructor_core/lib:/home/habibahassan/project/install/rviz_marker_tools/lib:/home/habibahassan/project/install/robotiq_controllers/lib:/home/habibahassan/project/install/pilz_industrial_motion_planner_testutils/lib:/home/habibahassan/project/install/pilz_industrial_motion_planner/lib:/home/habibahassan/project/install/picknik_twist_controller/lib:/home/habibahassan/project/install/picknik_reset_fault_controller/lib:/home/habibahassan/project/install/moveit_task_constructor_msgs/lib:/home/habibahassan/project/install/moveit_ros_control_interface/lib:/home/habibahassan/project/install/moveit_setup_assistant/lib:/home/habibahassan/project/install/moveit_setup_srdf_plugins/lib:/home/habibahassan/project/install/moveit_setup_core_plugins/lib:/home/habibahassan/project/install/moveit_setup_controllers/lib:/home/habibahassan/project/install/moveit_setup_app_plugins/lib:/home/habibahassan/project/install/moveit_setup_framework/lib:/home/habibahassan/project/install/moveit_ros_trajectory_cache/lib:/home/habibahassan/project/install/moveit_py/lib:/home/habibahassan/project/install/moveit_hybrid_planning/lib:/home/habibahassan/project/install/moveit_ros_benchmarks/lib:/home/habibahassan/project/install/moveit_ros_perception/lib:/home/habibahassan/project/install/moveit_planners_ompl/lib:/home/habibahassan/project/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/habibahassan/project/install/moveit_planners_stomp/lib:/home/habibahassan/project/install/moveit_planners_chomp/lib:/home/habibahassan/project/install/chomp_motion_planner/lib:/home/habibahassan/project/install/kortex_driver/lib:/home/habibahassan/project/install/gz_ros2_control/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/habibahassan', 'OLDPWD': '/home/habibahassan', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/habibahassan/project/install:/home/habibahassan/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'habibahassan', 'NAME': 'DESKTOP-32EN9BR', 'WSL_INTEROP': '/run/WSL/3762_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/habibahassan/project/install/moveit_core/bin:/home/habibahassan/project/install/ur_robot_driver/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/VSShell/Common7/IDE/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Johnson Controls/lib:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/haboo/anaconda3/condabin:/mnt/c/Users/haboo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/haboo/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/haboo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/haboo/AppData/Local/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '684d6016-7dc8-4027-ab60-f30dff1de809', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/habibahassan/project/install/moveit_configs_utils:/home/habibahassan/install/ur_moveit_config:/home/habibahassan/install/move_program:/home/habibahassan/project/install/ur_simulation_gz:/home/habibahassan/project/install/ur:/home/habibahassan/project/install/ur_calibration:/home/habibahassan/project/install/ur_robot_driver:/home/habibahassan/project/install/ur_moveit_config:/home/habibahassan/project/install/ur_description:/home/habibahassan/project/install/ur_controllers:/home/habibahassan/project/install/ur_dashboard_msgs:/home/habibahassan/project/install/robotiq_hardware_tests:/home/habibahassan/project/install/robotiq_driver:/home/habibahassan/project/install/serial:/home/habibahassan/project/install/moveit2_tutorials:/home/habibahassan/project/install/moveit_visual_tools:/home/habibahassan/project/install/rviz_visual_tools:/home/habibahassan/project/install/moveit_task_constructor_visualization:/home/habibahassan/project/install/moveit_task_constructor_demo:/home/habibahassan/project/install/moveit_task_constructor_capabilities:/home/habibahassan/project/install/moveit_task_constructor_core:/home/habibahassan/project/install/rviz_marker_tools:/home/habibahassan/project/install/kortex_bringup:/home/habibahassan/project/install/kinova_gen3_lite_moveit_config:/home/habibahassan/project/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/habibahassan/project/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/habibahassan/project/install/kortex_description:/home/habibahassan/project/install/robotiq_description:/home/habibahassan/project/install/robotiq_controllers:/home/habibahassan/project/install/pilz_industrial_motion_planner_testutils:/home/habibahassan/project/install/moveit_runtime:/home/habibahassan/project/install/moveit:/home/habibahassan/project/install/moveit_planners:/home/habibahassan/project/install/pilz_industrial_motion_planner:/home/habibahassan/project/install/picknik_twist_controller:/home/habibahassan/project/install/picknik_reset_fault_controller:/home/habibahassan/project/install/moveit_task_constructor_msgs:/home/habibahassan/project/install/moveit_ros_control_interface:/home/habibahassan/project/install/moveit_plugins:/home/habibahassan/project/install/move_program:/home/habibahassan/project/install/moveit_simple_controller_manager:/home/habibahassan/project/install/moveit_setup_assistant:/home/habibahassan/project/install/moveit_setup_srdf_plugins:/home/habibahassan/project/install/moveit_setup_core_plugins:/home/habibahassan/project/install/moveit_setup_controllers:/home/habibahassan/project/install/moveit_setup_app_plugins:/home/habibahassan/project/install/moveit_setup_framework:/home/habibahassan/project/install/moveit_servo:/home/habibahassan/project/install/moveit_ros_trajectory_cache:/home/habibahassan/project/install/moveit_ros:/home/habibahassan/project/install/moveit_ros_visualization:/home/habibahassan/project/install/moveit_py:/home/habibahassan/project/install/moveit_hybrid_planning:/home/habibahassan/project/install/moveit_ros_planning_interface:/home/habibahassan/project/install/moveit_ros_benchmarks:/home/habibahassan/project/install/moveit_ros_warehouse:/home/habibahassan/project/install/moveit_ros_robot_interaction:/home/habibahassan/project/install/moveit_ros_perception:/home/habibahassan/project/install/moveit_resources_prbt_pg70_support:/home/habibahassan/project/install/moveit_resources_prbt_moveit_config:/home/habibahassan/project/install/moveit_ros_move_group:/home/habibahassan/project/install/moveit_planners_ompl:/home/habibahassan/project/install/moveit_kinematics:/home/habibahassan/project/install/moveit_ros_planning:/home/habibahassan/project/install/moveit_ros_occupancy_map_monitor:/home/habibahassan/project/install/moveit_resources_prbt_support:/home/habibahassan/project/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/habibahassan/project/install/moveit_resources:/home/habibahassan/project/install/moveit_resources_pr2_description:/home/habibahassan/project/install/moveit_resources_panda_moveit_config:/home/habibahassan/project/install/dual_arm_panda_moveit_config:/home/habibahassan/project/install/moveit_resources_panda_description:/home/habibahassan/project/install/moveit_resources_fanuc_moveit_config:/home/habibahassan/project/install/moveit_resources_fanuc_description:/home/habibahassan/project/install/moveit_planners_stomp:/home/habibahassan/project/install/moveit_planners_chomp:/home/habibahassan/project/install/chomp_motion_planner:/home/habibahassan/project/install/moveit_core:/home/habibahassan/project/install/moveit_msgs:/home/habibahassan/project/install/moveit_common:/home/habibahassan/project/install/kortex_driver:/home/habibahassan/project/install/kortex_api:/home/habibahassan/project/install/gz_ros2_control_tests:/home/habibahassan/project/install/gz_ros2_control_demos:/home/habibahassan/project/install/gz_ros2_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/habibahassan/project/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/habibahassan/project/build/move_program', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/habibahassan/project/install/moveit_msgs/lib/python3.12/site-packages:/home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages:/home/habibahassan/project/install/ur_robot_driver/lib/python3.12/site-packages:/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/habibahassan/project/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/habibahassan/project/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/habibahassan/project/install/moveit_servo:/home/habibahassan/project/install/moveit_ros_visualization:/home/habibahassan/project/install/moveit_ros_planning_interface:/home/habibahassan/project/install/moveit_ros_move_group:/home/habibahassan/project/install/moveit_ros_warehouse:/home/habibahassan/project/install/moveit_ros_robot_interaction:/home/habibahassan/project/install/moveit_kinematics:/home/habibahassan/project/install/moveit_ros_planning:/home/habibahassan/project/install/moveit_simple_controller_manager:/home/habibahassan/project/install/moveit_ros_occupancy_map_monitor:/home/habibahassan/project/install/moveit_core:/home/habibahassan/project/install/moveit_resources_panda_moveit_config:/home/habibahassan/project/install/moveit_resources_fanuc_moveit_config:/home/habibahassan/project/install/moveit_resources_pr2_description:/home/habibahassan/project/install/moveit_resources_panda_description:/home/habibahassan/project/install/moveit_resources_fanuc_description:/home/habibahassan/project/install/moveit_msgs:/home/habibahassan/project/install/moveit_common:/home/habibahassan/install/ur_moveit_config:/home/habibahassan/install/move_program:/home/habibahassan/project/install/ur_simulation_gz:/home/habibahassan/project/install/ur:/home/habibahassan/project/install/ur_calibration:/home/habibahassan/project/install/ur_robot_driver:/home/habibahassan/project/install/ur_moveit_config:/home/habibahassan/project/install/ur_description:/home/habibahassan/project/install/ur_controllers:/home/habibahassan/project/install/ur_dashboard_msgs:/home/habibahassan/project/install/robotiq_hardware_tests:/home/habibahassan/project/install/robotiq_driver:/home/habibahassan/project/install/serial:/home/habibahassan/project/install/moveit2_tutorials:/home/habibahassan/project/install/moveit_visual_tools:/home/habibahassan/project/install/rviz_visual_tools:/home/habibahassan/project/install/moveit_task_constructor_visualization:/home/habibahassan/project/install/moveit_task_constructor_demo:/home/habibahassan/project/install/moveit_task_constructor_capabilities:/home/habibahassan/project/install/moveit_task_constructor_core:/home/habibahassan/project/install/rviz_marker_tools:/home/habibahassan/project/install/kortex_bringup:/home/habibahassan/project/install/kinova_gen3_lite_moveit_config:/home/habibahassan/project/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/habibahassan/project/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/habibahassan/project/install/kortex_description:/home/habibahassan/project/install/robotiq_description:/home/habibahassan/project/install/robotiq_controllers:/home/habibahassan/project/install/pilz_industrial_motion_planner_testutils:/home/habibahassan/project/install/moveit_runtime:/home/habibahassan/project/install/moveit:/home/habibahassan/project/install/moveit_planners:/home/habibahassan/project/install/pilz_industrial_motion_planner:/home/habibahassan/project/install/picknik_twist_controller:/home/habibahassan/project/install/picknik_reset_fault_controller:/home/habibahassan/project/install/moveit_task_constructor_msgs:/home/habibahassan/project/install/moveit_ros_control_interface:/home/habibahassan/project/install/moveit_plugins:/home/habibahassan/project/install/move_program:/home/habibahassan/project/install/moveit_setup_assistant:/home/habibahassan/project/install/moveit_setup_srdf_plugins:/home/habibahassan/project/install/moveit_setup_core_plugins:/home/habibahassan/project/install/moveit_setup_controllers:/home/habibahassan/project/install/moveit_setup_app_plugins:/home/habibahassan/project/install/moveit_setup_framework:/home/habibahassan/project/install/moveit_ros_trajectory_cache:/home/habibahassan/project/install/moveit_ros:/home/habibahassan/project/install/moveit_py:/home/habibahassan/project/install/moveit_hybrid_planning:/home/habibahassan/project/install/moveit_ros_benchmarks:/home/habibahassan/project/install/moveit_ros_perception:/home/habibahassan/project/install/moveit_resources_prbt_pg70_support:/home/habibahassan/project/install/moveit_resources_prbt_moveit_config:/home/habibahassan/project/install/moveit_planners_ompl:/home/habibahassan/project/install/moveit_resources_prbt_support:/home/habibahassan/project/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/habibahassan/project/install/moveit_resources:/home/habibahassan/project/install/dual_arm_panda_moveit_config:/home/habibahassan/project/install/moveit_planners_stomp:/home/habibahassan/project/install/moveit_planners_chomp:/home/habibahassan/project/install/chomp_motion_planner:/home/habibahassan/project/install/kortex_driver:/home/habibahassan/project/install/kortex_api:/home/habibahassan/project/install/gz_ros2_control_tests:/home/habibahassan/project/install/gz_ros2_control_demos:/home/habibahassan/project/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[5.950526] (-) TimerEvent: {}
+[6.051915] (-) TimerEvent: {}
+[6.129981] (move_program) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o\x1b[0m\n'}
+[6.152022] (-) TimerEvent: {}
+[6.254662] (-) TimerEvent: {}
+[6.355265] (-) TimerEvent: {}
+[6.455730] (-) TimerEvent: {}
+[6.556312] (-) TimerEvent: {}
+[6.656870] (-) TimerEvent: {}
+[6.757304] (-) TimerEvent: {}
+[6.857777] (-) TimerEvent: {}
+[6.958415] (-) TimerEvent: {}
+[7.059089] (-) TimerEvent: {}
+[7.159697] (-) TimerEvent: {}
+[7.260258] (-) TimerEvent: {}
+[7.360774] (-) TimerEvent: {}
+[7.461327] (-) TimerEvent: {}
+[7.561921] (-) TimerEvent: {}
+[7.662469] (-) TimerEvent: {}
+[7.762902] (-) TimerEvent: {}
+[7.863514] (-) TimerEvent: {}
+[7.963982] (-) TimerEvent: {}
+[8.064508] (-) TimerEvent: {}
+[8.165082] (-) TimerEvent: {}
+[8.265593] (-) TimerEvent: {}
+[8.373848] (-) TimerEvent: {}
+[8.474330] (-) TimerEvent: {}
+[8.574804] (-) TimerEvent: {}
+[8.675483] (-) TimerEvent: {}
+[8.776242] (-) TimerEvent: {}
+[8.876847] (-) TimerEvent: {}
+[8.977246] (-) TimerEvent: {}
+[9.077846] (-) TimerEvent: {}
+[9.178449] (-) TimerEvent: {}
+[9.278985] (-) TimerEvent: {}
+[9.379698] (-) TimerEvent: {}
+[9.480193] (-) TimerEvent: {}
+[9.580624] (-) TimerEvent: {}
+[9.681218] (-) TimerEvent: {}
+[9.782124] (-) TimerEvent: {}
+[9.882555] (-) TimerEvent: {}
+[9.983090] (-) TimerEvent: {}
+[10.083548] (-) TimerEvent: {}
+[10.184336] (-) TimerEvent: {}
+[10.284899] (-) TimerEvent: {}
+[10.385352] (-) TimerEvent: {}
+[10.489040] (-) TimerEvent: {}
+[10.589477] (-) TimerEvent: {}
+[10.690134] (-) TimerEvent: {}
+[10.790820] (-) TimerEvent: {}
+[10.892335] (-) TimerEvent: {}
+[10.993345] (-) TimerEvent: {}
+[11.096613] (-) TimerEvent: {}
+[11.197655] (-) TimerEvent: {}
+[11.298134] (-) TimerEvent: {}
+[11.398639] (-) TimerEvent: {}
+[11.499667] (-) TimerEvent: {}
+[11.600472] (-) TimerEvent: {}
+[11.701411] (-) TimerEvent: {}
+[11.801846] (-) TimerEvent: {}
+[11.902996] (-) TimerEvent: {}
+[12.003764] (-) TimerEvent: {}
+[12.104302] (-) TimerEvent: {}
+[12.204787] (-) TimerEvent: {}
+[12.305326] (-) TimerEvent: {}
+[12.405940] (-) TimerEvent: {}
+[12.506459] (-) TimerEvent: {}
+[12.609122] (-) TimerEvent: {}
+[12.713865] (-) TimerEvent: {}
+[12.814417] (-) TimerEvent: {}
+[12.914929] (-) TimerEvent: {}
+[13.015816] (-) TimerEvent: {}
+[13.116320] (-) TimerEvent: {}
+[13.216819] (-) TimerEvent: {}
+[13.317262] (-) TimerEvent: {}
+[13.417708] (-) TimerEvent: {}
+[13.518194] (-) TimerEvent: {}
+[13.618605] (-) TimerEvent: {}
+[13.719121] (-) TimerEvent: {}
+[13.819694] (-) TimerEvent: {}
+[13.920554] (-) TimerEvent: {}
+[14.021407] (-) TimerEvent: {}
+[14.121828] (-) TimerEvent: {}
+[14.222408] (-) TimerEvent: {}
+[14.322857] (-) TimerEvent: {}
+[14.423285] (-) TimerEvent: {}
+[14.523790] (-) TimerEvent: {}
+[14.624302] (-) TimerEvent: {}
+[14.724846] (-) TimerEvent: {}
+[14.825358] (-) TimerEvent: {}
+[14.926309] (-) TimerEvent: {}
+[15.029093] (-) TimerEvent: {}
+[15.129821] (-) TimerEvent: {}
+[15.230524] (-) TimerEvent: {}
+[15.331267] (-) TimerEvent: {}
+[15.431719] (-) TimerEvent: {}
+[15.532152] (-) TimerEvent: {}
+[15.632670] (-) TimerEvent: {}
+[15.733153] (-) TimerEvent: {}
+[15.833616] (-) TimerEvent: {}
+[15.934108] (-) TimerEvent: {}
+[16.034707] (-) TimerEvent: {}
+[16.135311] (-) TimerEvent: {}
+[16.235877] (-) TimerEvent: {}
+[16.336397] (-) TimerEvent: {}
+[16.436930] (-) TimerEvent: {}
+[16.537394] (-) TimerEvent: {}
+[16.638098] (-) TimerEvent: {}
+[16.743320] (-) TimerEvent: {}
+[16.843899] (-) TimerEvent: {}
+[16.944426] (-) TimerEvent: {}
+[17.044866] (-) TimerEvent: {}
+[17.145504] (-) TimerEvent: {}
+[17.246108] (-) TimerEvent: {}
+[17.346631] (-) TimerEvent: {}
+[17.448870] (-) TimerEvent: {}
+[17.549588] (-) TimerEvent: {}
+[17.650294] (-) TimerEvent: {}
+[17.750962] (-) TimerEvent: {}
+[17.851448] (-) TimerEvent: {}
+[17.951883] (-) TimerEvent: {}
+[18.052404] (-) TimerEvent: {}
+[18.152881] (-) TimerEvent: {}
+[18.253360] (-) TimerEvent: {}
+[18.354211] (-) TimerEvent: {}
+[18.454619] (-) TimerEvent: {}
+[18.555091] (-) TimerEvent: {}
+[18.655929] (-) TimerEvent: {}
+[18.756692] (-) TimerEvent: {}
+[18.857721] (-) TimerEvent: {}
+[18.960165] (-) TimerEvent: {}
+[19.060835] (-) TimerEvent: {}
+[19.162349] (-) TimerEvent: {}
+[19.262797] (-) TimerEvent: {}
+[19.363180] (-) TimerEvent: {}
+[19.463775] (-) TimerEvent: {}
+[19.564809] (-) TimerEvent: {}
+[19.665233] (-) TimerEvent: {}
+[19.765594] (-) TimerEvent: {}
+[19.866068] (-) TimerEvent: {}
+[19.966737] (-) TimerEvent: {}
+[20.067314] (-) TimerEvent: {}
+[20.167895] (-) TimerEvent: {}
+[20.271653] (-) TimerEvent: {}
+[20.372210] (-) TimerEvent: {}
+[20.472700] (-) TimerEvent: {}
+[20.573280] (-) TimerEvent: {}
+[20.673773] (-) TimerEvent: {}
+[20.774341] (-) TimerEvent: {}
+[20.874769] (-) TimerEvent: {}
+[20.975183] (-) TimerEvent: {}
+[21.075811] (-) TimerEvent: {}
+[21.176359] (-) TimerEvent: {}
+[21.276981] (-) TimerEvent: {}
+[21.377484] (-) TimerEvent: {}
+[21.477972] (-) TimerEvent: {}
+[21.578489] (-) TimerEvent: {}
+[21.679042] (-) TimerEvent: {}
+[21.779414] (-) TimerEvent: {}
+[21.879855] (-) TimerEvent: {}
+[21.980447] (-) TimerEvent: {}
+[22.080832] (-) TimerEvent: {}
+[22.181404] (-) TimerEvent: {}
+[22.281901] (-) TimerEvent: {}
+[22.384823] (-) TimerEvent: {}
+[22.485311] (-) TimerEvent: {}
+[22.585975] (-) TimerEvent: {}
+[22.686519] (-) TimerEvent: {}
+[22.786975] (-) TimerEvent: {}
+[22.887467] (-) TimerEvent: {}
+[22.988052] (-) TimerEvent: {}
+[23.088521] (-) TimerEvent: {}
+[23.189365] (-) TimerEvent: {}
+[23.290188] (-) TimerEvent: {}
+[23.390907] (-) TimerEvent: {}
+[23.491494] (-) TimerEvent: {}
+[23.592052] (-) TimerEvent: {}
+[23.692504] (-) TimerEvent: {}
+[23.793001] (-) TimerEvent: {}
+[23.893469] (-) TimerEvent: {}
+[23.994118] (-) TimerEvent: {}
+[24.094767] (-) TimerEvent: {}
+[24.195295] (-) TimerEvent: {}
+[24.295741] (-) TimerEvent: {}
+[24.396147] (-) TimerEvent: {}
+[24.496707] (-) TimerEvent: {}
+[24.597165] (-) TimerEvent: {}
+[24.697541] (-) TimerEvent: {}
+[24.797970] (-) TimerEvent: {}
+[24.898410] (-) TimerEvent: {}
+[24.999070] (-) TimerEvent: {}
+[25.099487] (-) TimerEvent: {}
+[25.200096] (-) TimerEvent: {}
+[25.300668] (-) TimerEvent: {}
+[25.401387] (-) TimerEvent: {}
+[25.502024] (-) TimerEvent: {}
+[25.602227] (move_program) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_program\x1b[0m\n'}
+[25.602651] (-) TimerEvent: {}
+[25.703027] (-) TimerEvent: {}
+[25.803539] (-) TimerEvent: {}
+[25.909450] (-) TimerEvent: {}
+[26.010359] (-) TimerEvent: {}
+[26.111800] (-) TimerEvent: {}
+[26.212312] (-) TimerEvent: {}
+[26.312737] (-) TimerEvent: {}
+[26.413522] (-) TimerEvent: {}
+[26.514093] (-) TimerEvent: {}
+[26.614707] (-) TimerEvent: {}
+[26.721842] (-) TimerEvent: {}
+[26.758850] (move_program) StdoutLine: {'line': b'[100%] Built target move_program\n'}
+[26.781454] (move_program) CommandEnded: {'returncode': 0}
+[26.782112] (move_program) JobProgress: {'identifier': 'move_program', 'progress': 'install'}
+[26.806563] (move_program) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/habibahassan/project/build/move_program'], 'cwd': '/home/habibahassan/project/build/move_program', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/habibahassan/.gazebo/models', 'USER': 'habibahassan', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/habibahassan/project/install/moveit_servo/lib:/home/habibahassan/project/install/moveit_ros_visualization/lib:/home/habibahassan/project/install/moveit_ros_planning_interface/lib:/home/habibahassan/project/install/moveit_ros_move_group/lib:/home/habibahassan/project/install/moveit_ros_warehouse/lib:/home/habibahassan/project/install/moveit_ros_robot_interaction/lib:/home/habibahassan/project/install/moveit_kinematics/lib:/home/habibahassan/project/install/moveit_ros_planning/lib:/home/habibahassan/project/install/moveit_simple_controller_manager/lib:/home/habibahassan/project/install/moveit_ros_occupancy_map_monitor/lib:/home/habibahassan/project/install/moveit_core/lib:/home/habibahassan/project/install/moveit_msgs/lib:/home/habibahassan/project/install/ur_robot_driver/lib:/home/habibahassan/project/install/ur_controllers/lib:/home/habibahassan/project/install/ur_dashboard_msgs/lib:/home/habibahassan/project/install/robotiq_driver/lib:/home/habibahassan/project/install/serial/lib:/home/habibahassan/project/install/moveit_visual_tools/lib:/home/habibahassan/project/install/rviz_visual_tools/lib:/home/habibahassan/project/install/moveit_task_constructor_visualization/lib:/home/habibahassan/project/install/moveit_task_constructor_demo/lib:/home/habibahassan/project/install/moveit_task_constructor_capabilities/lib:/home/habibahassan/project/install/moveit_task_constructor_core/lib:/home/habibahassan/project/install/rviz_marker_tools/lib:/home/habibahassan/project/install/robotiq_controllers/lib:/home/habibahassan/project/install/pilz_industrial_motion_planner_testutils/lib:/home/habibahassan/project/install/pilz_industrial_motion_planner/lib:/home/habibahassan/project/install/picknik_twist_controller/lib:/home/habibahassan/project/install/picknik_reset_fault_controller/lib:/home/habibahassan/project/install/moveit_task_constructor_msgs/lib:/home/habibahassan/project/install/moveit_ros_control_interface/lib:/home/habibahassan/project/install/moveit_setup_assistant/lib:/home/habibahassan/project/install/moveit_setup_srdf_plugins/lib:/home/habibahassan/project/install/moveit_setup_core_plugins/lib:/home/habibahassan/project/install/moveit_setup_controllers/lib:/home/habibahassan/project/install/moveit_setup_app_plugins/lib:/home/habibahassan/project/install/moveit_setup_framework/lib:/home/habibahassan/project/install/moveit_ros_trajectory_cache/lib:/home/habibahassan/project/install/moveit_py/lib:/home/habibahassan/project/install/moveit_hybrid_planning/lib:/home/habibahassan/project/install/moveit_ros_benchmarks/lib:/home/habibahassan/project/install/moveit_ros_perception/lib:/home/habibahassan/project/install/moveit_planners_ompl/lib:/home/habibahassan/project/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/habibahassan/project/install/moveit_planners_stomp/lib:/home/habibahassan/project/install/moveit_planners_chomp/lib:/home/habibahassan/project/install/chomp_motion_planner/lib:/home/habibahassan/project/install/kortex_driver/lib:/home/habibahassan/project/install/gz_ros2_control/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/habibahassan', 'OLDPWD': '/home/habibahassan', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/habibahassan/project/install:/home/habibahassan/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'habibahassan', 'NAME': 'DESKTOP-32EN9BR', 'WSL_INTEROP': '/run/WSL/3762_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/habibahassan/project/install/moveit_core/bin:/home/habibahassan/project/install/ur_robot_driver/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/Tools/Binn/VSShell/Common7/IDE/:/mnt/c/Program Files (x86)/Microsoft SQL Server/100/DTS/Binn/:/mnt/c/Program Files (x86)/Johnson Controls/lib:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/haboo/anaconda3/condabin:/mnt/c/Users/haboo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/haboo/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/haboo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/haboo/AppData/Local/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '684d6016-7dc8-4027-ab60-f30dff1de809', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/habibahassan/project/install/moveit_configs_utils:/home/habibahassan/install/ur_moveit_config:/home/habibahassan/install/move_program:/home/habibahassan/project/install/ur_simulation_gz:/home/habibahassan/project/install/ur:/home/habibahassan/project/install/ur_calibration:/home/habibahassan/project/install/ur_robot_driver:/home/habibahassan/project/install/ur_moveit_config:/home/habibahassan/project/install/ur_description:/home/habibahassan/project/install/ur_controllers:/home/habibahassan/project/install/ur_dashboard_msgs:/home/habibahassan/project/install/robotiq_hardware_tests:/home/habibahassan/project/install/robotiq_driver:/home/habibahassan/project/install/serial:/home/habibahassan/project/install/moveit2_tutorials:/home/habibahassan/project/install/moveit_visual_tools:/home/habibahassan/project/install/rviz_visual_tools:/home/habibahassan/project/install/moveit_task_constructor_visualization:/home/habibahassan/project/install/moveit_task_constructor_demo:/home/habibahassan/project/install/moveit_task_constructor_capabilities:/home/habibahassan/project/install/moveit_task_constructor_core:/home/habibahassan/project/install/rviz_marker_tools:/home/habibahassan/project/install/kortex_bringup:/home/habibahassan/project/install/kinova_gen3_lite_moveit_config:/home/habibahassan/project/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/habibahassan/project/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/habibahassan/project/install/kortex_description:/home/habibahassan/project/install/robotiq_description:/home/habibahassan/project/install/robotiq_controllers:/home/habibahassan/project/install/pilz_industrial_motion_planner_testutils:/home/habibahassan/project/install/moveit_runtime:/home/habibahassan/project/install/moveit:/home/habibahassan/project/install/moveit_planners:/home/habibahassan/project/install/pilz_industrial_motion_planner:/home/habibahassan/project/install/picknik_twist_controller:/home/habibahassan/project/install/picknik_reset_fault_controller:/home/habibahassan/project/install/moveit_task_constructor_msgs:/home/habibahassan/project/install/moveit_ros_control_interface:/home/habibahassan/project/install/moveit_plugins:/home/habibahassan/project/install/move_program:/home/habibahassan/project/install/moveit_simple_controller_manager:/home/habibahassan/project/install/moveit_setup_assistant:/home/habibahassan/project/install/moveit_setup_srdf_plugins:/home/habibahassan/project/install/moveit_setup_core_plugins:/home/habibahassan/project/install/moveit_setup_controllers:/home/habibahassan/project/install/moveit_setup_app_plugins:/home/habibahassan/project/install/moveit_setup_framework:/home/habibahassan/project/install/moveit_servo:/home/habibahassan/project/install/moveit_ros_trajectory_cache:/home/habibahassan/project/install/moveit_ros:/home/habibahassan/project/install/moveit_ros_visualization:/home/habibahassan/project/install/moveit_py:/home/habibahassan/project/install/moveit_hybrid_planning:/home/habibahassan/project/install/moveit_ros_planning_interface:/home/habibahassan/project/install/moveit_ros_benchmarks:/home/habibahassan/project/install/moveit_ros_warehouse:/home/habibahassan/project/install/moveit_ros_robot_interaction:/home/habibahassan/project/install/moveit_ros_perception:/home/habibahassan/project/install/moveit_resources_prbt_pg70_support:/home/habibahassan/project/install/moveit_resources_prbt_moveit_config:/home/habibahassan/project/install/moveit_ros_move_group:/home/habibahassan/project/install/moveit_planners_ompl:/home/habibahassan/project/install/moveit_kinematics:/home/habibahassan/project/install/moveit_ros_planning:/home/habibahassan/project/install/moveit_ros_occupancy_map_monitor:/home/habibahassan/project/install/moveit_resources_prbt_support:/home/habibahassan/project/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/habibahassan/project/install/moveit_resources:/home/habibahassan/project/install/moveit_resources_pr2_description:/home/habibahassan/project/install/moveit_resources_panda_moveit_config:/home/habibahassan/project/install/dual_arm_panda_moveit_config:/home/habibahassan/project/install/moveit_resources_panda_description:/home/habibahassan/project/install/moveit_resources_fanuc_moveit_config:/home/habibahassan/project/install/moveit_resources_fanuc_description:/home/habibahassan/project/install/moveit_planners_stomp:/home/habibahassan/project/install/moveit_planners_chomp:/home/habibahassan/project/install/chomp_motion_planner:/home/habibahassan/project/install/moveit_core:/home/habibahassan/project/install/moveit_msgs:/home/habibahassan/project/install/moveit_common:/home/habibahassan/project/install/kortex_driver:/home/habibahassan/project/install/kortex_api:/home/habibahassan/project/install/gz_ros2_control_tests:/home/habibahassan/project/install/gz_ros2_control_demos:/home/habibahassan/project/install/gz_ros2_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/habibahassan/project/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/habibahassan/project/build/move_program', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/habibahassan/project/install/moveit_msgs/lib/python3.12/site-packages:/home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages:/home/habibahassan/project/install/ur_robot_driver/lib/python3.12/site-packages:/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/habibahassan/project/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/habibahassan/project/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/habibahassan/project/install/moveit_servo:/home/habibahassan/project/install/moveit_ros_visualization:/home/habibahassan/project/install/moveit_ros_planning_interface:/home/habibahassan/project/install/moveit_ros_move_group:/home/habibahassan/project/install/moveit_ros_warehouse:/home/habibahassan/project/install/moveit_ros_robot_interaction:/home/habibahassan/project/install/moveit_kinematics:/home/habibahassan/project/install/moveit_ros_planning:/home/habibahassan/project/install/moveit_simple_controller_manager:/home/habibahassan/project/install/moveit_ros_occupancy_map_monitor:/home/habibahassan/project/install/moveit_core:/home/habibahassan/project/install/moveit_resources_panda_moveit_config:/home/habibahassan/project/install/moveit_resources_fanuc_moveit_config:/home/habibahassan/project/install/moveit_resources_pr2_description:/home/habibahassan/project/install/moveit_resources_panda_description:/home/habibahassan/project/install/moveit_resources_fanuc_description:/home/habibahassan/project/install/moveit_msgs:/home/habibahassan/project/install/moveit_common:/home/habibahassan/install/ur_moveit_config:/home/habibahassan/install/move_program:/home/habibahassan/project/install/ur_simulation_gz:/home/habibahassan/project/install/ur:/home/habibahassan/project/install/ur_calibration:/home/habibahassan/project/install/ur_robot_driver:/home/habibahassan/project/install/ur_moveit_config:/home/habibahassan/project/install/ur_description:/home/habibahassan/project/install/ur_controllers:/home/habibahassan/project/install/ur_dashboard_msgs:/home/habibahassan/project/install/robotiq_hardware_tests:/home/habibahassan/project/install/robotiq_driver:/home/habibahassan/project/install/serial:/home/habibahassan/project/install/moveit2_tutorials:/home/habibahassan/project/install/moveit_visual_tools:/home/habibahassan/project/install/rviz_visual_tools:/home/habibahassan/project/install/moveit_task_constructor_visualization:/home/habibahassan/project/install/moveit_task_constructor_demo:/home/habibahassan/project/install/moveit_task_constructor_capabilities:/home/habibahassan/project/install/moveit_task_constructor_core:/home/habibahassan/project/install/rviz_marker_tools:/home/habibahassan/project/install/kortex_bringup:/home/habibahassan/project/install/kinova_gen3_lite_moveit_config:/home/habibahassan/project/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/habibahassan/project/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/habibahassan/project/install/kortex_description:/home/habibahassan/project/install/robotiq_description:/home/habibahassan/project/install/robotiq_controllers:/home/habibahassan/project/install/pilz_industrial_motion_planner_testutils:/home/habibahassan/project/install/moveit_runtime:/home/habibahassan/project/install/moveit:/home/habibahassan/project/install/moveit_planners:/home/habibahassan/project/install/pilz_industrial_motion_planner:/home/habibahassan/project/install/picknik_twist_controller:/home/habibahassan/project/install/picknik_reset_fault_controller:/home/habibahassan/project/install/moveit_task_constructor_msgs:/home/habibahassan/project/install/moveit_ros_control_interface:/home/habibahassan/project/install/moveit_plugins:/home/habibahassan/project/install/move_program:/home/habibahassan/project/install/moveit_setup_assistant:/home/habibahassan/project/install/moveit_setup_srdf_plugins:/home/habibahassan/project/install/moveit_setup_core_plugins:/home/habibahassan/project/install/moveit_setup_controllers:/home/habibahassan/project/install/moveit_setup_app_plugins:/home/habibahassan/project/install/moveit_setup_framework:/home/habibahassan/project/install/moveit_ros_trajectory_cache:/home/habibahassan/project/install/moveit_ros:/home/habibahassan/project/install/moveit_py:/home/habibahassan/project/install/moveit_hybrid_planning:/home/habibahassan/project/install/moveit_ros_benchmarks:/home/habibahassan/project/install/moveit_ros_perception:/home/habibahassan/project/install/moveit_resources_prbt_pg70_support:/home/habibahassan/project/install/moveit_resources_prbt_moveit_config:/home/habibahassan/project/install/moveit_planners_ompl:/home/habibahassan/project/install/moveit_resources_prbt_support:/home/habibahassan/project/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/habibahassan/project/install/moveit_resources:/home/habibahassan/project/install/dual_arm_panda_moveit_config:/home/habibahassan/project/install/moveit_planners_stomp:/home/habibahassan/project/install/moveit_planners_chomp:/home/habibahassan/project/install/chomp_motion_planner:/home/habibahassan/project/install/kortex_driver:/home/habibahassan/project/install/kortex_api:/home/habibahassan/project/install/gz_ros2_control_tests:/home/habibahassan/project/install/gz_ros2_control_demos:/home/habibahassan/project/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[26.822284] (-) TimerEvent: {}
+[26.826607] (move_program) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[26.827770] (move_program) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.828569] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/lib/move_program/move_program\n'}
+[26.829035] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/ament_index/resource_index/package_run_dependencies/move_program\n'}
+[26.830320] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/ament_index/resource_index/parent_prefix_path/move_program\n'}
+[26.833415] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/environment/ament_prefix_path.sh\n'}
+[26.834110] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/environment/ament_prefix_path.dsv\n'}
+[26.834607] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/environment/path.sh\n'}
+[26.835020] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/environment/path.dsv\n'}
+[26.835428] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/local_setup.bash\n'}
+[26.835963] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/local_setup.sh\n'}
+[26.836447] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/local_setup.zsh\n'}
+[26.836738] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/local_setup.dsv\n'}
+[26.837028] (move_program) StdoutLine: {'line': b'-- Symlinking: /home/habibahassan/project/install/move_program/share/move_program/package.dsv\n'}
+[26.854934] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/ament_index/resource_index/packages/move_program\n'}
+[26.866202] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/cmake/move_programConfig.cmake\n'}
+[26.866437] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/cmake/move_programConfig-version.cmake\n'}
+[26.866561] (move_program) StdoutLine: {'line': b'-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/package.xml\n'}
+[26.866675] (move_program) CommandEnded: {'returncode': 0}
+[26.884803] (move_program) JobEnded: {'identifier': 'move_program', 'rc': 0}
+[26.886297] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o[0m
+In file included from [01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:379[m[K:
+[01m[K/home/habibahassan/project/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:486:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass MoveProgram[m[K’
+  486 | class [01;31m[KMoveProgram[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:387:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass MoveProgram[m[K’
+  387 | class [01;36m[KMoveProgram[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/habibahassan/project/build/ur_robot_driver/dashboard_client" "/home/habibahassan/project/build/ur_robot_driver/controller_stopper_node" "/home/habibahassan/project/build/ur_robot_driver/urscript_interface" "TARGETS" "dashboard_client" "controller_stopper_node" "urscript_interface" "DESTINATION" "lib/ur_robot_driver")

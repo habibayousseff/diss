@@ -1,0 +1,135 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-953cf65ec04e8fcda898.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "src/moveit/moveit_py_utils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.moveit.moveit_py_utils-8fcf4f67c576bae963c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/moveit/moveit_py_utils",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "moveit_py",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_moveit_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_moveit_egg-1835dca8f6ef8bc4adab.json",
+					"name" : "ament_cmake_python_build_moveit_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_moveit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_moveit-b92114172905ea0042f3.json",
+					"name" : "ament_cmake_python_copy_moveit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-core-1cdef3a4ef4a6309d71f.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_py_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_py_uninstall-afee980b02743fe1200e.json",
+					"name" : "moveit_py_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_py_utils::@a1abe9de333af7784a28",
+					"jsonFile" : "target-moveit_py_utils-51e60b7c16276ce56af1.json",
+					"name" : "moveit_py_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning-e2266aa3e5bbb6368015.json",
+					"name" : "planning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-817fde91e2a94efdf64b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/habibahassan/project/build/moveit_py",
+		"source" : "/home/habibahassan/project/src/moveit2/moveit_py"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

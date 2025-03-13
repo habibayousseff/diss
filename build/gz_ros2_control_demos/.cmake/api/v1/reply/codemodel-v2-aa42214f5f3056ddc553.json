@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0f527a902220a3a0630f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gz_ros2_control_demos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_ackermann_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_ackermann_drive-49033265f6441a51d5cb.json",
+					"name" : "example_ackermann_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_diff_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_diff_drive-bd0206b1eef40502510a.json",
+					"name" : "example_diff_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_effort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_effort-429370049a9530f3a928.json",
+					"name" : "example_effort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_gripper-3bf34c6c2b480f522c69.json",
+					"name" : "example_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_position-cdf82d26e9d3a28e2fa0.json",
+					"name" : "example_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_tricycle_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_tricycle_drive-80eb952788c323e2fa5b.json",
+					"name" : "example_tricycle_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_velocity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_velocity-f13f3449a02784644482.json",
+					"name" : "example_velocity",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_ros2_control_demos_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_ros2_control_demos_uninstall-5d53a1921d9ee490defd.json",
+					"name" : "gz_ros2_control_demos_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-06bf795c6d022534f60e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/habibahassan/project/build/gz_ros2_control_demos",
+		"source" : "/home/habibahassan/project/src/gz_ros2_control/gz_ros2_control_demos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

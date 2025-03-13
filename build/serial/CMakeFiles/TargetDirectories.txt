@@ -1,0 +1,10 @@
+/home/habibahassan/project/build/serial/CMakeFiles/uninstall.dir
+/home/habibahassan/project/build/serial/CMakeFiles/serial_uninstall.dir
+/home/habibahassan/project/build/serial/CMakeFiles/serial.dir
+/home/habibahassan/project/build/serial/CMakeFiles/test.dir
+/home/habibahassan/project/build/serial/CMakeFiles/edit_cache.dir
+/home/habibahassan/project/build/serial/CMakeFiles/rebuild_cache.dir
+/home/habibahassan/project/build/serial/CMakeFiles/list_install_components.dir
+/home/habibahassan/project/build/serial/CMakeFiles/install.dir
+/home/habibahassan/project/build/serial/CMakeFiles/install/local.dir
+/home/habibahassan/project/build/serial/CMakeFiles/install/strip.dir

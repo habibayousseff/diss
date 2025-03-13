@@ -1,0 +1,10 @@
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:224:128:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+  224 | #include <moveit2\moveit_ros\planning_interface\move_group_interface\include\moveit\move_group_interface\move_group_interface.h
+      |                                                                                                                                [01;31m[K^[m[K
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:224:10:[m[K [01;31m[Kfatal error: [m[Kmoveit2\moveit_ros\planning_interface\move_group_interface\include\moveit\move_group_interface\move_group_interface.h: No such file or directory
+  224 | #include [01;31m[K<[m[Kmoveit2\moveit_ros\planning_interface\move_group_interface\include\moveit\move_group_interface\move_group_interface.h
+      |          [01;31m[K^[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

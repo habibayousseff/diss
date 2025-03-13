@@ -1,0 +1,30 @@
+[0.034s] Invoking command in '/home/habibahassan/project/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/moveit_common
+[0.322s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.322s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.558s] -- Configuring done (0.5s)
+[0.562s] -- Generating done (0.0s)
+[0.564s] -- Build files have been written to: /home/habibahassan/project/build/moveit_common
+[0.570s] Invoked command in '/home/habibahassan/project/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/moveit_common
+[0.570s] Invoking command in '/home/habibahassan/project/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/moveit_common -- -j8 -l8
+[3.245s] Invoked command in '/home/habibahassan/project/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/moveit_common -- -j8 -l8
+[3.276s] Invoking command in '/home/habibahassan/project/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/moveit_common
+[3.348s] -- Install configuration: ""
+[3.348s] -- Installing: /home/habibahassan/project/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[3.348s] -- Installing: /home/habibahassan/project/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[3.348s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[3.349s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[3.349s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/environment/path.sh
+[3.349s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/environment/path.dsv
+[3.349s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/local_setup.bash
+[3.349s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/local_setup.sh
+[3.350s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/local_setup.zsh
+[3.350s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/local_setup.dsv
+[3.350s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/package.dsv
+[3.351s] -- Installing: /home/habibahassan/project/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[3.351s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[3.352s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[3.352s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[3.352s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/package.xml
+[3.353s] -- Up-to-date: /home/habibahassan/project/install/moveit_common/share/moveit_common/cmake
+[3.354s] -- Installing: /home/habibahassan/project/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[3.373s] Invoked command in '/home/habibahassan/project/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/moveit_common

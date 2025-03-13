@@ -1,0 +1,116 @@
+[0.030s] Invoking command in '/home/habibahassan/project/build/picknik_reset_fault_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/picknik_reset_fault_controller
+[0.524s] -- The C compiler identification is GNU 13.3.0
+[2.705s] -- The CXX compiler identification is GNU 13.3.0
+[4.270s] -- Detecting C compiler ABI info
+[4.889s] -- Detecting C compiler ABI info - done
+[4.922s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.923s] -- Detecting C compile features
+[4.924s] -- Detecting C compile features - done
+[5.157s] -- Detecting CXX compiler ABI info
+[5.762s] -- Detecting CXX compiler ABI info - done
+[5.786s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.787s] -- Detecting CXX compile features
+[5.788s] -- Detecting CXX compile features - done
+[5.799s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.485s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.905s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.969s] -- Found controller_interface: 4.25.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[7.785s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.868s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.957s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.051s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.844s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.016s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[9.038s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[9.127s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.345s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[9.346s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.852s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[9.862s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.891s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.191s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.410s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[11.786s] -- Configuring done (11.7s)
+[11.838s] -- Generating done (0.0s)
+[11.854s] -- Build files have been written to: /home/habibahassan/project/build/picknik_reset_fault_controller
+[11.899s] Invoked command in '/home/habibahassan/project/build/picknik_reset_fault_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/picknik_reset_fault_controller
+[11.900s] Invoking command in '/home/habibahassan/project/build/picknik_reset_fault_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/picknik_reset_fault_controller -- -j8 -l8
+[17.643s] [ 50%] [32mBuilding CXX object CMakeFiles/picknik_reset_fault_controller.dir/src/picknik_reset_fault_controller.cpp.o[0m
+[18.373s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:[m[K In member function ‘[01m[Kvirtual picknik_reset_fault_controller::CallbackReturn picknik_reset_fault_controller::PicknikResetFaultController::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[18.381s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:84:68:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.381s]    84 |   [01;35m[Kcommand_interfaces_[CommandInterfaces::RESET_FAULT_CMD].set_value(NO_CMD)[m[K;
+[18.382s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[18.382s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:26[m[K,
+[18.382s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[18.382s]                  from [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/include/picknik_reset_fault_controller/picknik_reset_fault_controller.hpp:30[m[K,
+[18.383s]                  from [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:24[m[K:
+[18.383s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.383s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.383s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.384s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:85:78:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.384s]    85 |   [01;35m[Kcommand_interfaces_[CommandInterfaces::RESET_FAULT_ASYNC_SUCCESS].set_value(NO_CMD)[m[K;
+[18.384s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[18.384s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.384s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.385s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.418s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:[m[K In member function ‘[01m[Kvirtual picknik_reset_fault_controller::CallbackReturn picknik_reset_fault_controller::PicknikResetFaultController::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[18.418s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:110:68:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.418s]   110 |   [01;35m[Kcommand_interfaces_[CommandInterfaces::RESET_FAULT_CMD].set_value(NO_CMD)[m[K;
+[18.418s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[18.419s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.419s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.419s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.420s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:111:78:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.420s]   111 |   [01;35m[Kcommand_interfaces_[CommandInterfaces::RESET_FAULT_ASYNC_SUCCESS].set_value(NO_CMD)[m[K;
+[18.421s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[18.421s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.421s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.421s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.438s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:[m[K In member function ‘[01m[Kbool picknik_reset_fault_controller::PicknikResetFaultController::[01;32m[KresetFault[m[K(example_interfaces::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[18.438s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:119:78:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.439s]   119 |   [01;35m[Kcommand_interfaces_[CommandInterfaces::RESET_FAULT_ASYNC_SUCCESS].set_value(ASYNC_WAITING)[m[K;
+[18.439s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[18.440s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.440s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.440s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.441s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_reset_fault_controller/src/picknik_reset_fault_controller.cpp:120:68:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.441s]   120 |   [01;35m[Kcommand_interfaces_[CommandInterfaces::RESET_FAULT_CMD].set_value(ISSUE_CMD)[m[K;
+[18.441s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[18.442s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.442s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.442s]       |                      [01;36m[K^~~~~~~~~[m[K
+[28.604s] [100%] [32m[1mLinking CXX shared library libpicknik_reset_fault_controller.so[0m
+[29.800s] [100%] Built target picknik_reset_fault_controller
+[29.885s] Invoked command in '/home/habibahassan/project/build/picknik_reset_fault_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/picknik_reset_fault_controller -- -j8 -l8
+[30.009s] Invoking command in '/home/habibahassan/project/build/picknik_reset_fault_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/picknik_reset_fault_controller
+[30.259s] -- Install configuration: ""
+[30.259s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/controller_plugins.xml
+[30.260s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/lib/libpicknik_reset_fault_controller.so
+[30.260s] -- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/picknik_reset_fault_controller/lib/libpicknik_reset_fault_controller.so" to ""
+[30.260s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/include
+[30.260s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/include/picknik_reset_fault_controller
+[30.261s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/include/picknik_reset_fault_controller/picknik_reset_fault_controller.hpp
+[30.265s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/include/picknik_reset_fault_controller/visibility_control.h
+[30.266s] -- Up-to-date: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/controller_plugins.xml
+[30.266s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/environment/library_path.sh
+[30.266s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/environment/library_path.dsv
+[30.286s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/ament_index/resource_index/package_run_dependencies/picknik_reset_fault_controller
+[30.287s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/ament_index/resource_index/parent_prefix_path/picknik_reset_fault_controller
+[30.287s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/environment/ament_prefix_path.sh
+[30.287s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/environment/ament_prefix_path.dsv
+[30.287s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/environment/path.sh
+[30.287s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/environment/path.dsv
+[30.288s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/local_setup.bash
+[30.288s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/local_setup.sh
+[30.288s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/local_setup.zsh
+[30.288s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/local_setup.dsv
+[30.288s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/package.dsv
+[30.289s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/ament_index/resource_index/packages/picknik_reset_fault_controller
+[30.289s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/picknik_reset_fault_controller
+[30.289s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.289s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.289s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[30.290s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/cmake/picknik_reset_fault_controllerConfig.cmake
+[30.292s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/cmake/picknik_reset_fault_controllerConfig-version.cmake
+[30.293s] -- Installing: /home/habibahassan/project/install/picknik_reset_fault_controller/share/picknik_reset_fault_controller/package.xml
+[30.326s] Invoked command in '/home/habibahassan/project/build/picknik_reset_fault_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/picknik_reset_fault_controller

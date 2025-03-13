@@ -1,0 +1,114 @@
+[0.030s] Invoking command in '/home/habibahassan/project/build/picknik_twist_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/picknik_controllers/picknik_twist_controller -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/picknik_twist_controller
+[0.502s] -- The C compiler identification is GNU 13.3.0
+[2.747s] -- The CXX compiler identification is GNU 13.3.0
+[4.220s] -- Detecting C compiler ABI info
+[4.888s] -- Detecting C compiler ABI info - done
+[4.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.928s] -- Detecting C compile features
+[4.929s] -- Detecting C compile features - done
+[5.174s] -- Detecting CXX compiler ABI info
+[5.743s] -- Detecting CXX compiler ABI info - done
+[5.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.777s] -- Detecting CXX compile features
+[5.780s] -- Detecting CXX compile features - done
+[5.790s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.425s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.842s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.910s] -- Found controller_interface: 4.25.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[7.750s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.820s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.799s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[8.970s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.992s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[9.094s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.268s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[9.278s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.819s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[9.828s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[9.851s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.422s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[11.813s] -- Configuring done (11.8s)
+[11.869s] -- Generating done (0.0s)
+[11.886s] -- Build files have been written to: /home/habibahassan/project/build/picknik_twist_controller
+[11.945s] Invoked command in '/home/habibahassan/project/build/picknik_twist_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/picknik_controllers/picknik_twist_controller -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/picknik_twist_controller
+[11.948s] Invoking command in '/home/habibahassan/project/build/picknik_twist_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/picknik_twist_controller -- -j8 -l8
+[18.125s] [ 50%] [32mBuilding CXX object CMakeFiles/picknik_twist_controller.dir/src/picknik_twist_controller.cpp.o[0m
+[18.146s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/src/picknik_twist_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type picknik_twist_controller::PicknikTwistController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[18.146s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/src/picknik_twist_controller.cpp:148:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.147s]   148 |   [01;35m[Kcommand_interfaces_[0].set_value((*twist_commands)->linear.x)[m[K;
+[18.147s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.148s] In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:26[m[K,
+[18.149s]                  from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+[18.149s]                  from [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/include/picknik_twist_controller/picknik_twist_controller.hpp:31[m[K,
+[18.149s]                  from [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/src/picknik_twist_controller.cpp:24[m[K:
+[18.149s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.149s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.150s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.151s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/src/picknik_twist_controller.cpp:149:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.151s]   149 |   [01;35m[Kcommand_interfaces_[1].set_value((*twist_commands)->linear.y)[m[K;
+[18.151s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.153s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.154s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.154s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.155s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/src/picknik_twist_controller.cpp:150:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.155s]   150 |   [01;35m[Kcommand_interfaces_[2].set_value((*twist_commands)->linear.z)[m[K;
+[18.155s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.155s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.156s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.156s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.156s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/src/picknik_twist_controller.cpp:151:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.157s]   151 |   [01;35m[Kcommand_interfaces_[3].set_value((*twist_commands)->angular.x)[m[K;
+[18.157s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.157s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.157s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.157s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.158s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/src/picknik_twist_controller.cpp:152:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.158s]   152 |   [01;35m[Kcommand_interfaces_[4].set_value((*twist_commands)->angular.y)[m[K;
+[18.158s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.158s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.158s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.159s]       |                      [01;36m[K^~~~~~~~~[m[K
+[18.159s] [01m[K/home/habibahassan/project/src/picknik_controllers/picknik_twist_controller/src/picknik_twist_controller.cpp:153:35:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[18.159s]   153 |   [01;35m[Kcommand_interfaces_[5].set_value((*twist_commands)->angular.z)[m[K;
+[18.159s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.159s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.160s]    98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+[18.160s]       |                      [01;36m[K^~~~~~~~~[m[K
+[38.821s] [100%] [32m[1mLinking CXX shared library libpicknik_twist_controller.so[0m
+[41.795s] [100%] Built target picknik_twist_controller
+[41.847s] Invoked command in '/home/habibahassan/project/build/picknik_twist_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/picknik_twist_controller -- -j8 -l8
+[41.849s] Invoking command in '/home/habibahassan/project/build/picknik_twist_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/picknik_twist_controller
+[53.262s] -- Install configuration: ""
+[53.262s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/controller_plugins.xml
+[53.263s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/lib/libpicknik_twist_controller.so
+[53.263s] -- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/picknik_twist_controller/lib/libpicknik_twist_controller.so" to ""
+[53.263s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/include
+[53.263s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/include/picknik_twist_controller
+[53.264s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/include/picknik_twist_controller/picknik_twist_controller.hpp
+[53.264s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/include/picknik_twist_controller/visibility_control.h
+[53.264s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/controller_plugins.xml
+[53.264s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/library_path.sh
+[53.264s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/library_path.dsv
+[53.265s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/ament_index/resource_index/package_run_dependencies/picknik_twist_controller
+[53.265s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/ament_index/resource_index/parent_prefix_path/picknik_twist_controller
+[53.266s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/ament_prefix_path.sh
+[53.266s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/ament_prefix_path.dsv
+[53.267s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/path.sh
+[53.267s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/path.dsv
+[53.268s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/local_setup.bash
+[53.268s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/local_setup.sh
+[53.268s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/local_setup.zsh
+[53.269s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/local_setup.dsv
+[53.269s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/package.dsv
+[53.269s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/ament_index/resource_index/packages/picknik_twist_controller
+[53.270s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/picknik_twist_controller
+[53.271s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.271s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.272s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[53.272s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/picknik_twist_controllerConfig.cmake
+[53.272s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/picknik_twist_controllerConfig-version.cmake
+[53.272s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/package.xml
+[53.297s] Invoked command in '/home/habibahassan/project/build/picknik_twist_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/picknik_twist_controller

@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ab28672342f547056260.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_task_constructor_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ik_clearance_cost_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ik_clearance_cost_parameters-Release-244d44b2dafca462c3d3.json",
+					"name" : "ik_clearance_cost_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_demo_alternative_path_costs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_demo_alternative_path_costs-Release-c09d45c8b3e8ae84cf43.json",
+					"name" : "moveit_task_constructor_demo_alternative_path_costs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_demo_cartesian::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_demo_cartesian-Release-91c6e6ac8bd7bdfa48b4.json",
+					"name" : "moveit_task_constructor_demo_cartesian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_demo_fallbacks_move_to::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_demo_fallbacks_move_to-Release-e92a8b6886ae4488c88c.json",
+					"name" : "moveit_task_constructor_demo_fallbacks_move_to",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_demo_ik_clearance_cost::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_demo_ik_clearance_cost-Release-17698d518b261e3c3c34.json",
+					"name" : "moveit_task_constructor_demo_ik_clearance_cost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_demo_modular::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_demo_modular-Release-bc9fc918fc7f27ab7322.json",
+					"name" : "moveit_task_constructor_demo_modular",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_demo_pick_place_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_demo_pick_place_demo-Release-0e6e2259f1d40b44fde2.json",
+					"name" : "moveit_task_constructor_demo_pick_place_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_demo_pick_place_task::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_demo_pick_place_task-Release-f9d97b5ee03f235ce872.json",
+					"name" : "moveit_task_constructor_demo_pick_place_task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_demo_uninstall-Release-e65f6fe0dd89dc33efd7.json",
+					"name" : "moveit_task_constructor_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_place_demo_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_place_demo_parameters-Release-7c27fc04620a941a0ee3.json",
+					"name" : "pick_place_demo_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b691c1bf3c602687bcf8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/habibahassan/project/build/moveit_task_constructor_demo",
+		"source" : "/home/habibahassan/project/src/moveit_task_constructor/demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

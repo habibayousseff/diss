@@ -1,0 +1,17 @@
+[01m[K/home/habibahassan/project/src/ros2_robotiq_gripper/robotiq_controllers/src/robotiq_activation_controller.cpp:[m[K In member function ‘[01m[Kbool robotiq_controllers::RobotiqActivationController::[01;32m[KreactivateGripper[m[K(std_srvs::srv::Trigger_Request_<std::allocator<void> >::SharedPtr, std_srvs::srv::Trigger_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/habibahassan/project/src/ros2_robotiq_gripper/robotiq_controllers/src/robotiq_activation_controller.cpp:108:61:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  108 |   [01;35m[Kcommand_interfaces_[REACTIVATE_GRIPPER_RESPONSE].set_value(ASYNC_WAITING)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/habibahassan/project/src/ros2_robotiq_gripper/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp:31[m[K,
+                 from [01m[K/home/habibahassan/project/src/ros2_robotiq_gripper/robotiq_controllers/src/robotiq_activation_controller.cpp:29[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/habibahassan/project/src/ros2_robotiq_gripper/robotiq_controllers/src/robotiq_activation_controller.cpp:109:56:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  109 |   [01;35m[Kcommand_interfaces_[REACTIVATE_GRIPPER_CMD].set_value(1.0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K

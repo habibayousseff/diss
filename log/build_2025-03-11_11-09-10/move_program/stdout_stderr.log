@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o[0m
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:[m[K In lambda function:
+[01m[K/home/habibahassan/project/src/move_program/src/move_program.cpp:396:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::Logger[m[K’ has no member named ‘[01m[Kinfo[m[K’
+  396 |           this->get_logger().[01;31m[Kinfo[m[K("Received robot_description (first 100 chars): " +
+      |                              [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

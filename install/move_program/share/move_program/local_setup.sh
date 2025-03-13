@@ -1,0 +1,1 @@
+/home/habibahassan/project/build/move_program/ament_cmake_environment_hooks/local_setup.sh

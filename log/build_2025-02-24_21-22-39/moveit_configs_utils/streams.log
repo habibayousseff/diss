@@ -1,0 +1,55 @@
+[1.275s] Invoking command in '/home/habibahassan/project/src/moveit2/moveit_configs_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habibahassan/project/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/habibahassan/project/build/moveit_configs_utils/build install --record /home/habibahassan/project/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[3.210s] running egg_info
+[3.210s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[3.210s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[3.211s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[3.211s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[3.212s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[3.212s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[3.213s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[3.214s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[3.215s] running build
+[3.215s] running build_py
+[3.216s] creating /home/habibahassan/project/build/moveit_configs_utils/build
+[3.216s] creating /home/habibahassan/project/build/moveit_configs_utils/build/lib
+[3.217s] creating /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.217s] copying moveit_configs_utils/launches.py -> /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.218s] copying moveit_configs_utils/launch_utils.py -> /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.220s] copying moveit_configs_utils/__init__.py -> /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.221s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[3.221s] creating /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[3.221s] copying moveit_configs_utils/substitutions/__init__.py -> /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[3.221s] copying moveit_configs_utils/substitutions/xacro.py -> /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[3.222s] running install
+[3.222s] running install_lib
+[3.223s] creating /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[3.223s] copying /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[3.223s] copying /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[3.224s] copying /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[3.224s] copying /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils
+[3.225s] creating /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions
+[3.226s] copying /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions
+[3.227s] copying /home/habibahassan/project/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions
+[3.227s] byte-compiling /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/launches.py to launches.cpython-312.pyc
+[3.227s] byte-compiling /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-312.pyc
+[3.228s] byte-compiling /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-312.pyc
+[3.228s] byte-compiling /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-312.pyc
+[3.228s] byte-compiling /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-312.pyc
+[3.228s] byte-compiling /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-312.pyc
+[3.228s] running install_data
+[3.229s] creating /home/habibahassan/project/install/moveit_configs_utils/share/ament_index
+[3.229s] creating /home/habibahassan/project/install/moveit_configs_utils/share/ament_index/resource_index
+[3.229s] creating /home/habibahassan/project/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[3.229s] copying resource/moveit_configs_utils -> /home/habibahassan/project/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[3.229s] copying package.xml -> /home/habibahassan/project/install/moveit_configs_utils/share/moveit_configs_utils
+[3.229s] creating /home/habibahassan/project/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.230s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/habibahassan/project/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.231s] copying default_configs/chomp_planning.yaml -> /home/habibahassan/project/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.231s] copying default_configs/stomp_planning.yaml -> /home/habibahassan/project/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.232s] copying default_configs/ompl_defaults.yaml -> /home/habibahassan/project/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.232s] copying default_configs/ompl_planning.yaml -> /home/habibahassan/project/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[3.232s] running install_egg_info
+[3.232s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils-2.13.0-py3.12.egg-info
+[3.232s] running install_scripts
+[3.233s] writing list of installed files to '/home/habibahassan/project/build/moveit_configs_utils/install.log'
+[3.266s] Invoked command in '/home/habibahassan/project/src/moveit2/moveit_configs_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habibahassan/project/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/habibahassan/project/build/moveit_configs_utils/build install --record /home/habibahassan/project/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
