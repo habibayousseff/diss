@@ -316,6 +316,9 @@ include("/home/habibahassan/project/build/move_program/ament_cmake_symlink_insta
 # install(DIRECTORY "launch/" "DESTINATION" "share/move_program/launch")
 ament_cmake_symlink_install_directory("/home/habibahassan/project/src/move_program" DIRECTORY "launch/" "DESTINATION" "share/move_program/launch")
 
+# install(DIRECTORY "config" "DESTINATION" "share/move_program")
+ament_cmake_symlink_install_directory("/home/habibahassan/project/src/move_program" DIRECTORY "config" "DESTINATION" "share/move_program")
+
 # install(FILES "/home/habibahassan/project/build/move_program/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/move_program" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/habibahassan/project/src/move_program" FILES "/home/habibahassan/project/build/move_program/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/move_program" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

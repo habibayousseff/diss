@@ -1,3 +1,4 @@
 /home/habibahassan/project/install/move_program/lib/move_program/ee_pos.py
 /home/habibahassan/project/install/move_program/lib/move_program/move_to_pose.py
 /home/habibahassan/project/install/move_program/lib/move_program/trial_code.py
+/home/habibahassan/project/install/move_program/lib/move_program/trial_with_launch.py

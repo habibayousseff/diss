@@ -24,13 +24,16 @@ class EndEffectorPosition(Node):
         try:
             # Query the transform from base (or world) to end-effector
             trans: TransformStamped = self.tf_buffer.lookup_transform(
-                'world',             # target frame (adjust as needed)
+                'base_link',             # target frame (adjust as needed)
                 'wrist_3_link',      # source frame (end-effector)
                 rclpy.time.Time(),   # latest available transform
                 timeout=rclpy.duration.Duration(seconds=1.0)
             )
             pos = trans.transform.translation
             self.get_logger().info(f"EE Position - x: {pos.x:.3f}, y: {pos.y:.3f}, z: {pos.z:.3f}")
+            rot = trans.transform.rotation
+            self.get_logger().info(f"EE Orientation - x: {rot.x:.3f}, y: {rot.y:.3f}, z: {rot.z:.3f}, w: {rot.w:.3f}")
+
         except Exception as e:
             self.get_logger().warn(f"Could not get transform: {e}")
 

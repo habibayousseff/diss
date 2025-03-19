@@ -44,6 +44,12 @@ install(DIRECTORY launch/
   DESTINATION share/${PROJECT_NAME}/launch
 )
 
+
+install(
+  DIRECTORY config 
+  DESTINATION share/${PROJECT_NAME}
+)
+
 # Install the Python parameter publisher node
 install(PROGRAMS
   pub_sub/param_publisher.py
@@ -76,6 +82,11 @@ install(PROGRAMS
   PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ
 )
 
+install(PROGRAMS
+  scripts/trial_with_launch.py
+  DESTINATION lib/${PROJECT_NAME}
+  PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

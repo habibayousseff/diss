@@ -1,0 +1,65 @@
+################################################################################
+# Example: my_moveit_py_params.yaml
+# Provides the planning scene monitor + pipeline configs for moveit_py
+################################################################################
+
+planning_scene_monitor_options:
+  name: "planning_scene_monitor"
+  # The node will look up 'robot_description' from your combined.launch or a
+  # shared parameter server
+  robot_description: "robot_description"
+  joint_state_topic: "/joint_states"
+  attached_collision_object_topic: "/moveit_py/planning_scene_monitor"
+  publish_planning_scene_topic: "/moveit_py/publish_planning_scene"
+  monitored_planning_scene_topic: "/moveit_py/monitored_planning_scene"
+  wait_for_initial_state_timeout: 10.0
+
+################################################################################
+# We can define multiple pipelines: OMPL, CHOMP, Pilz, etc.
+################################################################################
+planning_pipelines:
+  pipeline_names: ["ompl", "pilz_industrial_motion_planner", "chomp"]
+
+################################################################################
+# Default plan request parameters
+################################################################################
+plan_request_params:
+  planning_attempts: 1
+  planning_pipeline: ompl
+  max_velocity_scaling_factor: 1.0
+  max_acceleration_scaling_factor: 1.0
+
+################################################################################
+# OMPL pipeline #1
+################################################################################
+ompl_rrtc:
+  plan_request_params:
+    planning_attempts: 1
+    planning_pipeline: ompl
+    planner_id: "RRTConnectkConfigDefault"
+    max_velocity_scaling_factor: 1.0
+    max_acceleration_scaling_factor: 1.0
+    planning_time: 1.0
+
+################################################################################
+# Pilz pipeline
+################################################################################
+pilz_lin:
+  plan_request_params:
+    planning_attempts: 1
+    planning_pipeline: pilz_industrial_motion_planner
+    planner_id: "PTP"
+    max_velocity_scaling_factor: 1.0
+    max_acceleration_scaling_factor: 1.0
+    planning_time: 1.0
+
+################################################################################
+# CHOMP pipeline
+################################################################################
+chomp:
+  plan_request_params:
+    planning_attempts: 1
+    planning_pipeline: chomp
+    max_velocity_scaling_factor: 1.0
+    max_acceleration_scaling_factor: 1.0
+    planning_time: 1.5
