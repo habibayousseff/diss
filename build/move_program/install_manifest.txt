@@ -1,3 +1,5 @@
+/home/habibahassan/project/install/move_program/lib/move_program/predefined_object_navigation.py
+/home/habibahassan/project/install/move_program/lib/move_program/collison_objects.py
 /home/habibahassan/project/install/move_program/lib/move_program/ee_pos.py
 /home/habibahassan/project/install/move_program/lib/move_program/move_to_pose.py
 /home/habibahassan/project/install/move_program/lib/move_program/trial_code.py

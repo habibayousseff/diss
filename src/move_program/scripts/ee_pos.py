@@ -24,8 +24,8 @@ class EndEffectorPosition(Node):
         try:
             # Query the transform from base (or world) to end-effector
             trans: TransformStamped = self.tf_buffer.lookup_transform(
-                'base_link',             # target frame (adjust as needed)
-                'wrist_3_link',      # source frame (end-effector)
+                'world',             # target frame (adjust as needed)
+                'tool0',      # source frame (end-effector)
                 rclpy.time.Time(),   # latest available transform
                 timeout=rclpy.duration.Duration(seconds=1.0)
             )

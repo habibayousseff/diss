@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/habibahassan/project/src/move_program/pub_sub/predefined_object_navigation.py":
+  No such file or directory.
+
+[0m
