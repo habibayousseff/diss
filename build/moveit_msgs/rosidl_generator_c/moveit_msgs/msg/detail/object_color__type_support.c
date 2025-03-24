@@ -6,8 +6,8 @@
 
 #include "moveit_msgs/msg/detail/object_color__type_support.h"
 #include "moveit_msgs/msg/detail/object_color__struct.h"
-#include "moveit_msgs/msg/detail/object_color__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "moveit_msgs/msg/detail/object_color__functions.h"
 
 #ifdef __cplusplus
 extern "C"

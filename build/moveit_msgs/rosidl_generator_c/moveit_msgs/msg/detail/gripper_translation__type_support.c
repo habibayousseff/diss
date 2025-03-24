@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "moveit_msgs/msg/detail/gripper_translation__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "moveit_msgs/msg/detail/gripper_translation__struct.h"
 #include "moveit_msgs/msg/detail/gripper_translation__type_support.h"
+#include "moveit_msgs/msg/detail/gripper_translation__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

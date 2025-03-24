@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "moveit_msgs/srv/detail/servo_command_type__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/srv/detail/servo_command_type__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/srv/detail/servo_command_type__type_support.h"
 
 #ifdef __cplusplus

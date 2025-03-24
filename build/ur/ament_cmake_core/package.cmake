@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "ur")
-set(ur_VERSION "3.0.2")
+set(ur_VERSION "3.1.1")
 set(ur_MAINTAINER "Felix Exner <feex@universal-robots.com>, Rune Søe-Knudsen <rsk@universal-robots.com>, Universal Robots A/S <ros@universal-robots.com>")
 set(ur_BUILD_DEPENDS )
 set(ur_BUILDTOOL_DEPENDS "ament_cmake")

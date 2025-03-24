@@ -16,7 +16,7 @@ set(_ur_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ur_FIND_QUIETLY)
-  message(STATUS "Found ur: 3.0.2 (${ur_DIR})")
+  message(STATUS "Found ur: 3.1.1 (${ur_DIR})")
 endif()
 
 # warn when using a deprecated package

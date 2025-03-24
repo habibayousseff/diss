@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ur_robot_driver',
-    version='3.0.2',
+    version='3.1.1',
     packages=find_packages(
         include=('ur_robot_driver', 'ur_robot_driver.*')),
 )

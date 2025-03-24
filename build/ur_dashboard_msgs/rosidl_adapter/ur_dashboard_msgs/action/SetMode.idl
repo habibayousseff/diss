@@ -10,7 +10,10 @@ module ur_dashboard_msgs {
       "non-critical state (e.g. NORMAL or REDUCED), for example after a safety incident happened.")
     struct SetMode_Goal {
       @verbatim (language="comment", text=
-        "goal")
+        "Target modes can be one of" "\n"
+        "- 3: ROBOT_MODE_POWER_OFF" "\n"
+        "- 5: ROBOT_MODE_IDLE" "\n"
+        "- 7: ROBOT_MODE_RUNNING")
       int8 target_robot_mode;
 
       @verbatim (language="comment", text=

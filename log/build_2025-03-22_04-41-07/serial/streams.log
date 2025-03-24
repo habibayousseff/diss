@@ -1,0 +1,59 @@
+[0.023s] Invoking command in '/home/habibahassan/project/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/serial -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/serial
+[1.403s] -- The C compiler identification is GNU 13.3.0
+[1.403s] -- The CXX compiler identification is GNU 13.3.0
+[2.197s] -- Detecting C compiler ABI info
+[2.597s] -- Detecting C compiler ABI info - done
+[2.614s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.618s] -- Detecting C compile features
+[2.618s] -- Detecting C compile features - done
+[2.729s] -- Detecting CXX compiler ABI info
+[3.074s] -- Detecting CXX compiler ABI info - done
+[3.082s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.083s] -- Detecting CXX compile features
+[3.084s] -- Detecting CXX compile features - done
+[3.092s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.462s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.830s] -- Configuring done (3.8s)
+[3.839s] -- Generating done (0.0s)
+[3.843s] -- Build files have been written to: /home/habibahassan/project/build/serial
+[3.852s] Invoked command in '/home/habibahassan/project/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/serial -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/serial
+[3.853s] Invoking command in '/home/habibahassan/project/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/serial -- -j8 -l8
+[6.620s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[6.620s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[6.622s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[6.622s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[6.622s] [100%] Built target serial
+[6.633s] Invoked command in '/home/habibahassan/project/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/serial -- -j8 -l8
+[6.633s] Invoking command in '/home/habibahassan/project/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/serial
+[6.789s] -- Install configuration: ""
+[6.789s] -- Installing: /home/habibahassan/project/install/serial/lib/libserial.a
+[6.789s] -- Installing: /home/habibahassan/project/install/serial/include
+[6.789s] -- Installing: /home/habibahassan/project/install/serial/include/serial
+[6.789s] -- Installing: /home/habibahassan/project/install/serial/include/serial/serial.h
+[6.789s] -- Installing: /home/habibahassan/project/install/serial/include/serial/impl
+[6.789s] -- Installing: /home/habibahassan/project/install/serial/include/serial/impl/win.h
+[6.790s] -- Installing: /home/habibahassan/project/install/serial/include/serial/impl/unix.h
+[6.790s] -- Installing: /home/habibahassan/project/install/serial/include/serial/v8stdint.h
+[6.790s] -- Installing: /home/habibahassan/project/install/serial/share/serial/environment/library_path.sh
+[6.790s] -- Installing: /home/habibahassan/project/install/serial/share/serial/environment/library_path.dsv
+[6.790s] -- Installing: /home/habibahassan/project/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[6.791s] -- Installing: /home/habibahassan/project/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[6.791s] -- Installing: /home/habibahassan/project/install/serial/share/serial/environment/ament_prefix_path.sh
+[6.792s] -- Installing: /home/habibahassan/project/install/serial/share/serial/environment/ament_prefix_path.dsv
+[6.792s] -- Installing: /home/habibahassan/project/install/serial/share/serial/environment/path.sh
+[6.792s] -- Installing: /home/habibahassan/project/install/serial/share/serial/environment/path.dsv
+[6.793s] -- Installing: /home/habibahassan/project/install/serial/share/serial/local_setup.bash
+[6.794s] -- Installing: /home/habibahassan/project/install/serial/share/serial/local_setup.sh
+[6.814s] -- Installing: /home/habibahassan/project/install/serial/share/serial/local_setup.zsh
+[6.817s] -- Installing: /home/habibahassan/project/install/serial/share/serial/local_setup.dsv
+[6.818s] -- Installing: /home/habibahassan/project/install/serial/share/serial/package.dsv
+[6.819s] -- Installing: /home/habibahassan/project/install/serial/share/ament_index/resource_index/packages/serial
+[6.819s] -- Installing: /home/habibahassan/project/install/serial/share/serial/cmake/export_serialExport.cmake
+[6.820s] -- Installing: /home/habibahassan/project/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[6.820s] -- Installing: /home/habibahassan/project/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.820s] -- Installing: /home/habibahassan/project/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[6.820s] -- Installing: /home/habibahassan/project/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[6.820s] -- Installing: /home/habibahassan/project/install/serial/share/serial/cmake/serialConfig.cmake
+[6.820s] -- Installing: /home/habibahassan/project/install/serial/share/serial/cmake/serialConfig-version.cmake
+[6.820s] -- Installing: /home/habibahassan/project/install/serial/share/serial/package.xml
+[6.822s] Invoked command in '/home/habibahassan/project/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/serial

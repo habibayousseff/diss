@@ -1,0 +1,32 @@
+[100%] Built target move_program
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/lib/move_program/move_program
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/launch/combined.launch.py
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/config/param_share.yaml
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/ament_index/resource_index/package_run_dependencies/move_program
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/ament_index/resource_index/parent_prefix_path/move_program
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/environment/path.sh
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/environment/path.dsv
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/local_setup.bash
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/local_setup.sh
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/local_setup.zsh
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/local_setup.dsv
+-- Symlinking: /home/habibahassan/project/install/move_program/share/move_program/package.dsv
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/ament_index/resource_index/packages/move_program
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/cmake/move_programConfig.cmake
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/cmake/move_programConfig-version.cmake
+-- Up-to-date symlink: /home/habibahassan/project/install/move_program/share/move_program/package.xml
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/param_publisher.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/predefined_object_navigation.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/nav.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/unified_llm_nav.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/llm_interface_node.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/collison_objects.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/ee_pos.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/robot_description_publisher.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/move_to_pose.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/trial_code.py
+-- Up-to-date: /home/habibahassan/project/install/move_program/lib/move_program/trial_with_launch.py

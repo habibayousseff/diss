@@ -1402,7 +1402,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_core/move_programConfig.cmake"
   "ament_cmake_core/stamps/nameConfig-version.cmake.in.stamp"
   "ament_cmake_core/move_programConfig-version.cmake"
-  "ament_cmake_symlink_install_targets_0_Debug.cmake"
+  "ament_cmake_symlink_install_targets_0_.cmake"
   "ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/move_program"
   "ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/move_program"
   "ament_cmake_environment_hooks/ament_prefix_path.dsv"

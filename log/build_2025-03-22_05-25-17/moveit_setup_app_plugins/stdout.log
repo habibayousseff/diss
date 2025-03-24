@@ -1,0 +1,60 @@
+[  0%] Built target moveit_setup_app_plugins_autogen_timestamp_deps
+[  0%] Built target gtest_main_autogen_timestamp_deps
+[  0%] Built target gtest_autogen_timestamp_deps
+[  3%] Built target gtest_main_autogen
+[  7%] Built target moveit_setup_app_plugins_autogen
+[ 11%] Built target gtest_autogen
+[ 25%] Built target gtest_main
+[ 40%] Built target gtest
+[ 85%] Built target moveit_setup_app_plugins
+[ 85%] Built target test_perception_autogen_timestamp_deps
+[ 88%] Built target test_perception_autogen
+[100%] Built target test_perception
+-- Install configuration: "Release"
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/launch
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/launch/generic.launch.py.template
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/config
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/config/sensors_3d.yaml
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/templates/config/moveit.rviz
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/lib/libmoveit_setup_app_plugins.so
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_setup_app_plugins/lib/libmoveit_setup_app_plugins.so" to ""
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/moveit_setup_framework_plugins.xml
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/launches.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/launches.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/perception_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/perception_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/launches_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/launch_bundle.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/launches_config.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/launches_config.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/perception_config.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/launch_bundle.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/perception.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/perception_config.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/perception.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moveit_setup_app_plugins/launches_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/library_path.sh
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/library_path.dsv
+-- Up-to-date: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/moveit_setup_framework_plugins.xml
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_app_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_app_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/path.sh
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/environment/path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/local_setup.bash
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/local_setup.sh
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/local_setup.zsh
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/local_setup.dsv
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/package.dsv
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/ament_index/resource_index/packages/moveit_setup_app_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_app_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/moveit_setup_app_pluginsTargetsExport.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/moveit_setup_app_pluginsTargetsExport-release.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/moveit_setup_app_pluginsConfig.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/moveit_setup_app_pluginsConfig-version.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/package.xml

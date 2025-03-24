@@ -35,11 +35,11 @@ class SceneObjectsNode(Node):
         self.add_tray2()
 
         # 5) Cups
-        self.add_cup("red_cup",    1.08017, 1.28947)
-        self.add_cup("green_cup",  1.30263, 1.14363)
-        self.add_cup("blue_cup",   0.915743,1.21589)
-        self.add_cup("yellow_cup", 1.27218, 1.44268)
-        self.add_cup("purple_cup", 1.34100, 1.28573)
+        self.add_cup("red_cup", 0.973062, 1.295022) 
+        self.add_cup("green_cup", 1.148940, 1.295022)      
+        self.add_cup("blue_cup", 1.324818, 1.295022)
+        self.add_cup("yellow_cup", 0.973062, 1.451358)    
+        self.add_cup("purple_cup", 1.148940, 1.451358)
 
     # -------------------------------------------------------------------------
     #  Cylinder Table
@@ -210,7 +210,6 @@ class SceneObjectsNode(Node):
         # same center as main base, but z offset maybe +0.02 so it's on top?
         walls_pose.position.x = 1.14894
         walls_pose.position.y = 1.37319
-        # walls_pose.position.z = 1.0151 + 0.02
         walls_pose.position.z = 1.0151
         walls_pose.orientation.w = main_pose.orientation.w
         walls_pose.orientation.z = main_pose.orientation.z
@@ -257,7 +256,6 @@ class SceneObjectsNode(Node):
         walls_pose = Pose()
         walls_pose.position.x = base_pose.position.x
         walls_pose.position.y = base_pose.position.y
-        # walls_pose.position.z = base_pose.position.z + 0.02
         walls_pose.position.z = base_pose.position.z
         walls_pose.orientation.w = base_pose.orientation.w
         walls_pose.orientation.z = base_pose.orientation.z
@@ -287,14 +285,12 @@ class SceneObjectsNode(Node):
 
         cyl = SolidPrimitive()
         cyl.type = SolidPrimitive.CYLINDER
-        cyl.dimensions = [0.13, 0.075]  # height=0.13, radius=0.056
+        cyl.dimensions = [0.15, 0.075]  # height=0.13, radius=0.056
 
         p = Pose()
         p.position.x = x
         p.position.y = y
-        # SDF bottom=1.0988185 => center= +0.065 => 1.164 approx
-        # p.position.z = 1.0988185 + 0.065
-        p.position.z = 1.0988185
+        p.position.z = 1.088953
         p.orientation.w = 1.0
 
         cup_obj.primitives.append(cyl)

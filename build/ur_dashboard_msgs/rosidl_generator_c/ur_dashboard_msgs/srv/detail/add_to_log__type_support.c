@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "ur_dashboard_msgs/srv/detail/add_to_log__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "ur_dashboard_msgs/srv/detail/add_to_log__type_support.h"
 #include "ur_dashboard_msgs/srv/detail/add_to_log__functions.h"
+#include "ur_dashboard_msgs/srv/detail/add_to_log__struct.h"
 
 #ifdef __cplusplus
 extern "C"

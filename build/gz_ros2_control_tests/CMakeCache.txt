@@ -475,6 +475,12 @@ onelib:FILEPATH=/opt/ros/jazzy/lib/x86_64-linux-gnu/liburdfdom_world.so
 //Path to a library.
 onelibd:FILEPATH=onelibd-NOTFOUND
 
+//The directory containing a CMake configuration file for pal_statistics.
+pal_statistics_DIR:PATH=/opt/ros/jazzy/share/pal_statistics/cmake
+
+//The directory containing a CMake configuration file for pal_statistics_msgs.
+pal_statistics_msgs_DIR:PATH=/opt/ros/jazzy/share/pal_statistics_msgs/cmake
+
 //The directory containing a CMake configuration file for parameter_traits.
 parameter_traits_DIR:PATH=/opt/ros/jazzy/share/parameter_traits/cmake
 

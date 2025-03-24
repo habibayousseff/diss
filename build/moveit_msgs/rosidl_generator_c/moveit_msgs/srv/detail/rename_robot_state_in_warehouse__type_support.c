@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "moveit_msgs/srv/detail/rename_robot_state_in_warehouse__struct.h"
 #include "moveit_msgs/srv/detail/rename_robot_state_in_warehouse__functions.h"
+#include "moveit_msgs/srv/detail/rename_robot_state_in_warehouse__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/srv/detail/rename_robot_state_in_warehouse__type_support.h"
 

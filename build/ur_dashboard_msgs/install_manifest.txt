@@ -281,10 +281,10 @@
 /home/habibahassan/project/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
 /home/habibahassan/project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
 /home/habibahassan/project/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
-/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.0.2-py3.12.egg-info/SOURCES.txt
-/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.0.2-py3.12.egg-info/top_level.txt
-/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.0.2-py3.12.egg-info/dependency_links.txt
-/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.0.2-py3.12.egg-info/PKG-INFO
+/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.1.1-py3.12.egg-info/SOURCES.txt
+/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.1.1-py3.12.egg-info/top_level.txt
+/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.1.1-py3.12.egg-info/dependency_links.txt
+/home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.1.1-py3.12.egg-info/PKG-INFO
 /home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running.py
 /home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
 /home/habibahassan/project/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup.py

@@ -1,0 +1,236 @@
+[0.034s] Invoking command in '/home/habibahassan/project/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/ros2_kortex/kortex_api -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/kortex_api
+[0.072s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):
+[0.072s]   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+[0.073s]   not set.  The policy's OLD behavior will be used.  When using a URL
+[0.073s]   download, the timestamps of extracted files should preferably be that of
+[0.074s]   the time of extraction, otherwise code that depends on the extracted
+[0.074s]   contents might not be rebuilt if the URL changes.  The OLD behavior
+[0.075s]   preserves the timestamps from the archive instead, but this is usually not
+[0.075s]   what you want.  Update your project to the NEW behavior or specify the
+[0.076s]   DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+[0.076s]   robustness issue.
+[0.076s] Call Stack (most recent call first):
+[0.077s]   CMakeLists.txt:4 (FetchContent_Declare)
+[0.077s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.077s] [0m
+[3.253s] -- The C compiler identification is GNU 13.3.0
+[4.189s] -- The CXX compiler identification is GNU 13.3.0
+[4.983s] -- Detecting C compiler ABI info
+[5.317s] -- Detecting C compiler ABI info - done
+[5.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.333s] -- Detecting C compile features
+[5.334s] -- Detecting C compile features - done
+[5.484s] -- Detecting CXX compiler ABI info
+[5.920s] -- Detecting CXX compiler ABI info - done
+[5.944s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.945s] -- Detecting CXX compile features
+[5.947s] -- Detecting CXX compile features - done
+[5.960s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.538s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.163s] -- Configuring done (7.1s)
+[7.168s] -- Generating done (0.0s)
+[7.173s] -- Build files have been written to: /home/habibahassan/project/build/kortex_api
+[7.182s] Invoked command in '/home/habibahassan/project/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/habibahassan/project/src/ros2_kortex/kortex_api -DCMAKE_INSTALL_PREFIX=/home/habibahassan/project/install/kortex_api
+[7.183s] Invoking command in '/home/habibahassan/project/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/kortex_api -- -j8 -l8
+[12.400s] Invoked command in '/home/habibahassan/project/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/kortex_api -- -j8 -l8
+[12.401s] Invoking command in '/home/habibahassan/project/build/kortex_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/kortex_api
+[12.434s] -- Install configuration: ""
+[12.436s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api
+[12.438s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/FrameHandler.h
+[12.438s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/TransportClientUdp.h
+[12.440s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/NotificationHandler.h
+[12.440s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/SessionManager.h
+[12.440s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/ITransportClient.h
+[12.441s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/TransportClientTcp.h
+[12.441s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/RouterClient.h
+[12.441s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/version.h
+[12.442s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/IRouterClient.h
+[12.443s] -- Up-to-date: /home/habibahassan/project/install/kortex_api/include/kortex_api
+[12.443s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/Frame.h
+[12.443s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/KinovaTcpUtilities.h
+[12.444s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/TransportBridgeDummy.h
+[12.445s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/KError.h
+[12.445s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/KDetailedException.h
+[12.445s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/HeaderInfo.h
+[12.446s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/KBasicException.h
+[12.446s] -- Up-to-date: /home/habibahassan/project/install/kortex_api/include/kortex_api/version.h
+[12.446s] -- Up-to-date: /home/habibahassan/project/install/kortex_api/include/kortex_api
+[12.446s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/InterconnectCyclic.pb.h
+[12.447s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/Errors.pb.h
+[12.447s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/GripperCyclic.pb.h
+[12.447s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/Session.pb.h
+[12.449s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/GripperCyclicMessage.pb.h
+[12.452s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/GripperConfig.pb.h
+[12.453s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/VisionConfig.pb.h
+[12.456s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/ActuatorConfig.pb.h
+[12.459s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/InterconnectConfig.pb.h
+[12.460s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/DeviceConfig.pb.h
+[12.461s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/BaseCyclic.pb.h
+[12.461s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/ActuatorCyclic.pb.h
+[12.462s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/DeviceManager.pb.h
+[12.462s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/ProductConfiguration.pb.h
+[12.463s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/ControlConfig.pb.h
+[12.463s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/Base.pb.h
+[12.482s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/InterconnectCyclicMessage.pb.h
+[12.483s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/Frame.pb.h
+[12.483s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/Test.pb.h
+[12.483s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/Common.pb.h
+[12.483s] -- Up-to-date: /home/habibahassan/project/install/kortex_api/include/kortex_api
+[12.483s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/ControlConfigClientRpc.h
+[12.484s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/InterconnectConfigClientRpc.h
+[12.484s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/InterconnectCyclicClientRpc.h
+[12.484s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/BaseClientRpc.h
+[12.484s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/VisionConfigClientRpc.h
+[12.484s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/SessionClientRpc.h
+[12.484s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/ActuatorConfigClientRpc.h
+[12.485s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/DeviceConfigClientRpc.h
+[12.485s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/DeviceManagerClientRpc.h
+[12.485s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/BaseCyclicClientRpc.h
+[12.486s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/ActuatorCyclicClientRpc.h
+[12.486s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/TestClientRpc.h
+[12.486s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/GripperCyclicClientRpc.h
+[12.486s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf
+[12.487s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/wire_format.h
+[12.487s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/wrappers.pb.h
+[12.487s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/type.pb.h
+[12.487s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/extension_set.h
+[12.487s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/message_lite.h
+[12.488s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/any.h
+[12.488s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/source_context.pb.h
+[12.488s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/map_type_handler.h
+[12.488s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/api.pb.h
+[12.488s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/field_mask.pb.h
+[12.489s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io
+[12.489s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io/gzip_stream.h
+[12.489s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io/strtod.h
+[12.489s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream.h
+[12.490s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io/coded_stream.h
+[12.490s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream_impl_lite.h
+[12.490s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io/zero_copy_stream_impl.h
+[12.491s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io/printer.h
+[12.491s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/io/tokenizer.h
+[12.491s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs
+[12.491s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomic_sequence_num.h
+[12.491s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/once.h
+[12.492s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/common.h
+[12.492s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/stl_util.h
+[12.492s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/macros.h
+[12.492s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/scoped_ptr.h
+[12.493s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/callback.h
+[12.493s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/fastmem.h
+[12.493s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/bytestream.h
+[12.493s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/template_util.h
+[12.494s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/port.h
+[12.494s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/hash.h
+[12.494s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/casts.h
+[12.494s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm_qnx.h
+[12.494s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_mips_gcc.h
+[12.494s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm64_gcc.h
+[12.495s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_x86_msvc.h
+[12.495s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops.h
+[12.495s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/status.h
+[12.495s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/singleton.h
+[12.495s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_solaris.h
+[12.496s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_tsan.h
+[12.496s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/type_traits.h
+[12.496s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_x86_gcc.h
+[12.496s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/mutex.h
+[12.496s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_arm_gcc.h
+[12.497s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_ppc_gcc.h
+[12.497s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_power.h
+[12.503s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_generic_gcc.h
+[12.503s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/platform_macros.h
+[12.503s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/atomicops_internals_generic_c11_atomic.h
+[12.503s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/stringpiece.h
+[12.503s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/logging.h
+[12.504s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/stubs/shared_ptr.h
+[12.504s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util
+[12.504s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util/delimited_message_util.h
+[12.504s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util/time_util.h
+[12.504s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util/field_mask_util.h
+[12.504s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util/field_comparator.h
+[12.504s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util/json_util.h
+[12.505s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util/message_differencer.h
+[12.505s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util/type_resolver_util.h
+[12.505s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/util/type_resolver.h
+[12.505s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/dynamic_message.h
+[12.505s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/any.pb.h
+[12.505s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/descriptor_database.h
+[12.505s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/descriptor.h
+[12.505s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/has_bits.h
+[12.512s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/arena.h
+[12.513s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/metadata_lite.h
+[12.513s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/metadata.h
+[12.513s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler
+[12.514s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/code_generator.h
+[12.514s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/parser.h
+[12.514s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/command_line_interface.h
+[12.514s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec
+[12.515s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec/objectivec_helpers.h
+[12.516s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/objectivec/objectivec_generator.h
+[12.517s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/cpp
+[12.517s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/cpp/cpp_generator.h
+[12.518s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/ruby
+[12.519s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/ruby/ruby_generator.h
+[12.519s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/java
+[12.519s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/java/java_names.h
+[12.519s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/java/java_generator.h
+[12.520s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp
+[12.520s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp/csharp_generator.h
+[12.520s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/csharp/csharp_names.h
+[12.521s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/plugin.h
+[12.521s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/importer.h
+[12.521s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/python
+[12.522s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/python/python_generator.h
+[12.522s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/php
+[12.523s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/php/php_generator.h
+[12.523s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/javanano
+[12.526s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/javanano/javanano_generator.h
+[12.527s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/js
+[12.527s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/js/well_known_types_embed.h
+[12.528s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/js/js_generator.h
+[12.528s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/compiler/plugin.pb.h
+[12.528s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/timestamp.pb.h
+[12.528s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/arena_impl.h
+[12.528s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/wire_format_lite.h
+[12.529s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/text_format.h
+[12.529s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/generated_message_reflection.h
+[12.529s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/service.h
+[12.529s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/map_entry.h
+[12.529s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/struct.pb.h
+[12.530s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/map_field_inl.h
+[12.532s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/repeated_field.h
+[12.533s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/arenastring.h
+[12.534s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/map_field_lite.h
+[12.534s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/message.h
+[12.534s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/empty.pb.h
+[12.535s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/duration.pb.h
+[12.535s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/descriptor.pb.h
+[12.535s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/generated_message_table_driven.h
+[12.535s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/map.h
+[12.535s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/generated_enum_reflection.h
+[12.536s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/unknown_field_set.h
+[12.536s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/map_entry_lite.h
+[12.536s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/reflection_ops.h
+[12.536s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/map_field.h
+[12.536s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/reflection.h
+[12.537s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/generated_message_util.h
+[12.537s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/generated_enum_util.h
+[12.537s] -- Installing: /home/habibahassan/project/install/kortex_api/include/kortex_api/google/protobuf/wire_format_lite_inl.h
+[12.537s] -- Installing: /home/habibahassan/project/install/kortex_api/share/ament_index/resource_index/package_run_dependencies/kortex_api
+[12.537s] -- Installing: /home/habibahassan/project/install/kortex_api/share/ament_index/resource_index/parent_prefix_path/kortex_api
+[12.537s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/environment/ament_prefix_path.sh
+[12.538s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/environment/ament_prefix_path.dsv
+[12.538s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/environment/path.sh
+[12.543s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/environment/path.dsv
+[12.543s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/local_setup.bash
+[12.544s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/local_setup.sh
+[12.545s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/local_setup.zsh
+[12.545s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/local_setup.dsv
+[12.546s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/package.dsv
+[12.547s] -- Installing: /home/habibahassan/project/install/kortex_api/share/ament_index/resource_index/packages/kortex_api
+[12.548s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.548s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/cmake/kortex_apiConfig.cmake
+[12.549s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/cmake/kortex_apiConfig-version.cmake
+[12.551s] -- Installing: /home/habibahassan/project/install/kortex_api/share/kortex_api/package.xml
+[12.599s] Invoked command in '/home/habibahassan/project/build/kortex_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/kortex_api

@@ -1,1 +1,0 @@
-/home/habibahassan/project/src/move_program/pub_sub/srdf_publisher.py

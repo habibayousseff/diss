@@ -16,7 +16,7 @@ set(_ur_calibration_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ur_calibration_FIND_QUIETLY)
-  message(STATUS "Found ur_calibration: 3.0.2 (${ur_calibration_DIR})")
+  message(STATUS "Found ur_calibration: 3.1.1 (${ur_calibration_DIR})")
 endif()
 
 # warn when using a deprecated package

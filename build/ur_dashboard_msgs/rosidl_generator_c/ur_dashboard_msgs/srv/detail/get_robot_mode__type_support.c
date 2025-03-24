@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h"
+#include "ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h"
 #include "ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h"
 
 #ifdef __cplusplus

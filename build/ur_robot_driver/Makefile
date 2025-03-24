@@ -237,6 +237,19 @@ controller_stopper_node/fast:
 .PHONY : controller_stopper_node/fast
 
 #=============================================================================
+# Target rules for targets named robot_state_helper
+
+# Build rule for target.
+robot_state_helper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_state_helper
+.PHONY : robot_state_helper
+
+# fast build rule for target.
+robot_state_helper/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_state_helper.dir/build.make CMakeFiles/robot_state_helper.dir/build
+.PHONY : robot_state_helper/fast
+
+#=============================================================================
 # Target rules for targets named urscript_interface
 
 # Build rule for target.
@@ -250,17 +263,17 @@ urscript_interface/fast:
 .PHONY : urscript_interface/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_ur_robot_driver
+# Target rules for targets named ament_cmake_python_copy_ur_robot_driver
 
 # Build rule for target.
-ament_cmake_python_symlink_ur_robot_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_ur_robot_driver
-.PHONY : ament_cmake_python_symlink_ur_robot_driver
+ament_cmake_python_copy_ur_robot_driver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_ur_robot_driver
+.PHONY : ament_cmake_python_copy_ur_robot_driver
 
 # fast build rule for target.
-ament_cmake_python_symlink_ur_robot_driver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_ur_robot_driver.dir/build.make CMakeFiles/ament_cmake_python_symlink_ur_robot_driver.dir/build
-.PHONY : ament_cmake_python_symlink_ur_robot_driver/fast
+ament_cmake_python_copy_ur_robot_driver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_ur_robot_driver.dir/build.make CMakeFiles/ament_cmake_python_copy_ur_robot_driver.dir/build
+.PHONY : ament_cmake_python_copy_ur_robot_driver/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_ur_robot_driver_egg
@@ -398,6 +411,57 @@ src/hardware_interface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_robot_driver_plugin.dir/build.make CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.s
 .PHONY : src/hardware_interface.cpp.s
 
+src/robot_state_helper.o: src/robot_state_helper.cpp.o
+.PHONY : src/robot_state_helper.o
+
+# target to build an object file
+src/robot_state_helper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_robot_driver_plugin.dir/build.make CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_state_helper.dir/build.make CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o
+.PHONY : src/robot_state_helper.cpp.o
+
+src/robot_state_helper.i: src/robot_state_helper.cpp.i
+.PHONY : src/robot_state_helper.i
+
+# target to preprocess a source file
+src/robot_state_helper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_robot_driver_plugin.dir/build.make CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_state_helper.dir/build.make CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.i
+.PHONY : src/robot_state_helper.cpp.i
+
+src/robot_state_helper.s: src/robot_state_helper.cpp.s
+.PHONY : src/robot_state_helper.s
+
+# target to generate assembly for a file
+src/robot_state_helper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_robot_driver_plugin.dir/build.make CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_state_helper.dir/build.make CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.s
+.PHONY : src/robot_state_helper.cpp.s
+
+src/robot_state_helper_node.o: src/robot_state_helper_node.cpp.o
+.PHONY : src/robot_state_helper_node.o
+
+# target to build an object file
+src/robot_state_helper_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_state_helper.dir/build.make CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o
+.PHONY : src/robot_state_helper_node.cpp.o
+
+src/robot_state_helper_node.i: src/robot_state_helper_node.cpp.i
+.PHONY : src/robot_state_helper_node.i
+
+# target to preprocess a source file
+src/robot_state_helper_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_state_helper.dir/build.make CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.i
+.PHONY : src/robot_state_helper_node.cpp.i
+
+src/robot_state_helper_node.s: src/robot_state_helper_node.cpp.s
+.PHONY : src/robot_state_helper_node.s
+
+# target to generate assembly for a file
+src/robot_state_helper_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_state_helper.dir/build.make CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.s
+.PHONY : src/robot_state_helper_node.cpp.s
+
 src/urcl_log_handler.o: src/urcl_log_handler.cpp.o
 .PHONY : src/urcl_log_handler.o
 
@@ -463,11 +527,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_ur_robot_driver_egg"
-	@echo "... ament_cmake_python_symlink_ur_robot_driver"
+	@echo "... ament_cmake_python_copy_ur_robot_driver"
 	@echo "... uninstall"
 	@echo "... ur_robot_driver_uninstall"
 	@echo "... controller_stopper_node"
 	@echo "... dashboard_client"
+	@echo "... robot_state_helper"
 	@echo "... ur_robot_driver_plugin"
 	@echo "... urscript_interface"
 	@echo "... src/controller_stopper.o"
@@ -485,6 +550,12 @@ help:
 	@echo "... src/hardware_interface.o"
 	@echo "... src/hardware_interface.i"
 	@echo "... src/hardware_interface.s"
+	@echo "... src/robot_state_helper.o"
+	@echo "... src/robot_state_helper.i"
+	@echo "... src/robot_state_helper.s"
+	@echo "... src/robot_state_helper_node.o"
+	@echo "... src/robot_state_helper_node.i"
+	@echo "... src/robot_state_helper_node.s"
 	@echo "... src/urcl_log_handler.o"
 	@echo "... src/urcl_log_handler.i"
 	@echo "... src/urcl_log_handler.s"

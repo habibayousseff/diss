@@ -16,7 +16,7 @@ set(_ur_dashboard_msgs_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ur_dashboard_msgs_FIND_QUIETLY)
-  message(STATUS "Found ur_dashboard_msgs: 3.0.2 (${ur_dashboard_msgs_DIR})")
+  message(STATUS "Found ur_dashboard_msgs: 3.1.1 (${ur_dashboard_msgs_DIR})")
 endif()
 
 # warn when using a deprecated package

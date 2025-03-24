@@ -16,7 +16,7 @@ set(_ur_moveit_config_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ur_moveit_config_FIND_QUIETLY)
-  message(STATUS "Found ur_moveit_config: 3.0.2 (${ur_moveit_config_DIR})")
+  message(STATUS "Found ur_moveit_config: 3.1.1 (${ur_moveit_config_DIR})")
 endif()
 
 # warn when using a deprecated package

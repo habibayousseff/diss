@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ur_dashboard_msgs',
-    version='3.0.2',
+    version='3.1.1',
     packages=find_packages(
         include=('ur_dashboard_msgs', 'ur_dashboard_msgs.*')),
 )

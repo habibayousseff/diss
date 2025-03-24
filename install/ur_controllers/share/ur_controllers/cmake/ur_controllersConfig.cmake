@@ -16,7 +16,7 @@ set(_ur_controllers_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ur_controllers_FIND_QUIETLY)
-  message(STATUS "Found ur_controllers: 3.0.2 (${ur_controllers_DIR})")
+  message(STATUS "Found ur_controllers: 3.1.1 (${ur_controllers_DIR})")
 endif()
 
 # warn when using a deprecated package

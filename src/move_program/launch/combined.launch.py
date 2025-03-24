@@ -356,6 +356,14 @@ def generate_launch_description():
         output="screen",
     )   
     ld.add_action(collison_objects_node)
+    
+    llm_node = Node(
+        package="move_program",
+        executable="unified_llm_nav.py",
+        output="screen",
+    )
+    
+    ld.add_action(llm_node)
 
     return ld
 

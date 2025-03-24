@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "ur_controllers")
-set(ur_controllers_VERSION "3.0.2")
+set(ur_controllers_VERSION "3.1.1")
 set(ur_controllers_MAINTAINER "Felix Exner <feex@universal-robots.com>, Rune Søe-Knudsen <rsk@universal-robots.com>, Universal Robots A/S <ros@universal-robots.com>")
 set(ur_controllers_BUILD_DEPENDS "angles" "controller_interface" "generate_parameter_library" "geometry_msgs" "hardware_interface" "joint_trajectory_controller" "lifecycle_msgs" "pluginlib" "rclcpp_lifecycle" "rcutils" "realtime_tools" "std_msgs" "std_srvs" "tf2_geometry_msgs" "tf2_ros" "ur_dashboard_msgs" "ur_msgs" "control_msgs" "trajectory_msgs" "action_msgs")
 set(ur_controllers_BUILDTOOL_DEPENDS "ament_cmake")

@@ -399,6 +399,12 @@ onelib:FILEPATH=/opt/ros/jazzy/lib/x86_64-linux-gnu/liburdfdom_world.so
 //Path to a library.
 onelibd:FILEPATH=onelibd-NOTFOUND
 
+//The directory containing a CMake configuration file for pal_statistics.
+pal_statistics_DIR:PATH=/opt/ros/jazzy/share/pal_statistics/cmake
+
+//The directory containing a CMake configuration file for pal_statistics_msgs.
+pal_statistics_msgs_DIR:PATH=/opt/ros/jazzy/share/pal_statistics_msgs/cmake
+
 //Value Computed by CMake
 picknik_reset_fault_controller_BINARY_DIR:STATIC=/home/habibahassan/project/build/picknik_reset_fault_controller
 
@@ -443,6 +449,9 @@ rclcpp_action_DIR:PATH=/opt/ros/jazzy/share/rclcpp_action/cmake
 
 //The directory containing a CMake configuration file for rclcpp_lifecycle.
 rclcpp_lifecycle_DIR:PATH=/opt/ros/jazzy/share/rclcpp_lifecycle/cmake
+
+//The directory containing a CMake configuration file for rclpy.
+rclpy_DIR:PATH=/opt/ros/jazzy/share/rclpy/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/jazzy/share/rcpputils/cmake

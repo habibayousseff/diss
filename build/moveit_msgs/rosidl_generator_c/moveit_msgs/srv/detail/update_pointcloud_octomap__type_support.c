@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "moveit_msgs/srv/detail/update_pointcloud_octomap__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/srv/detail/update_pointcloud_octomap__struct.h"
 #include "moveit_msgs/srv/detail/update_pointcloud_octomap__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

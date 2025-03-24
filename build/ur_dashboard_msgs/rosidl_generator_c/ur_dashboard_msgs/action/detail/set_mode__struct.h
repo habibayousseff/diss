@@ -23,7 +23,10 @@ extern "C"
 /// Struct defined in action/SetMode in the package ur_dashboard_msgs.
 typedef struct ur_dashboard_msgs__action__SetMode_Goal
 {
-  /// goal
+  /// Target modes can be one of
+  /// - 3: ROBOT_MODE_POWER_OFF
+  /// - 5: ROBOT_MODE_IDLE
+  /// - 7: ROBOT_MODE_RUNNING
   int8_t target_robot_mode;
   /// Stop program execution before restoring the target mode. Can be used together with 'play_program'.
   bool stop_program;

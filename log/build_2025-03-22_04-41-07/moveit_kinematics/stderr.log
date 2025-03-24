@@ -1,0 +1,6 @@
+[0mmoveit_kinematics: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [test/CMakeFiles/benchmark_ik.dir/build.make:76: test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:469: test/CMakeFiles/benchmark_ik.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

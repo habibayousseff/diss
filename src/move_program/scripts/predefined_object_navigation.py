@@ -15,34 +15,30 @@ from moveit_msgs.msg import (
 from moveit_msgs.action import MoveGroup, ExecuteTrajectory
 
 from math import sin, cos
-# If you store Euler angles, you'll want to convert to quaternions. 
-# Or just store quaternions directly in the dictionary.
 
-# Import the dictionary of known object poses:
-
+# dictionary of known object poses:
 OBJECT_GOALS = {
     "RedCup": {
-        "position": [0.907, 1.268, 1.225],
-        "orientation": [0.639, 0.769, 0.009, -0.034]
+        "position": [1.01, 1.295022, 1.27],
+        "orientation": [0.720, 0.694, -0.029, -0.013]
     },
     "GreenCup": {
-        "position": [1.274, 1.352, 1.195],
-        "orientation": [0.668, 0.743, -0.043, -0.026]
+        "position": [1.148940, 1.295022, 1.27],
+        "orientation": [0.714, 0.699, -0.032, -0.041]
     },
     "BlueCup": {
-        "position": [1.8295634595, 1.8338560006, 1.1601171328],
-        "orientation": [0.0, 0.0, 0.0, 1.0]
+        "position": [1.29, 1.27, 1.27],
+        "orientation": [0.714, 0.699, -0.032, -0.041]
     },
     "YellowCup": {
-        "position": [1.279, 1.433, 1.203],
-        "orientation": [0.639, 0.764, -0.088, -0.030]
+        "position": [0.963062, 1.461358, 1.27],
+        "orientation": [0.714, 0.699, -0.032, -0.041]
     },
     "PurpleCup": {
-        "position": [1.341, 1.299, 1.199],
-        "orientation": [0.639, 0.764,-0.088,-0.031]
+        "position": [1.168, 1.466, 1.27],
+        "orientation": [0.714, 0.699, -0.032, -0.041]
     },
 }
-
 
 class PredefinedObjectClient(Node):
     def __init__(self, goal_name):
@@ -58,20 +54,16 @@ class PredefinedObjectClient(Node):
         self.get_logger().info("Waiting for /execute_trajectory server...")
         self._exec_client.wait_for_server()
 
-        # 1) Lookup the goal pose from the dictionary
+        # Lookup the goal pose from the dictionary
         if self.goal_name not in OBJECT_GOALS:
             self.get_logger().error(f"Goal '{self.goal_name}' not found in OBJECT_GOALS!")
             self.done = True
             return
 
-        pos = OBJECT_GOALS[self.goal_name]["position"]  # [x, y, z]
-        ori = OBJECT_GOALS[self.goal_name]["orientation"] # [qx, qy, qz, qw] or [roll, pitch, yaw] ?
+        pos = OBJECT_GOALS[self.goal_name]["position"]
+        ori = OBJECT_GOALS[self.goal_name]["orientation"]
 
-        # If you stored Euler angles, convert them to quaternion here.
-        # For example, if orientation=[rx,ry,rz], do the conversion. 
-        # Otherwise, skip this if you already have a quaternion in the dictionary.
-
-        # 2) Build the MoveGroup request
+        # Build the MoveGroup request
         goal_msg = MoveGroup.Goal()
         request = MotionPlanRequest()
         request.group_name = "ur_manipulator"
@@ -79,20 +71,20 @@ class PredefinedObjectClient(Node):
         request.max_velocity_scaling_factor = 0.7
         request.max_acceleration_scaling_factor = 0.7
 
-        # Create a bounding region or direct constraints
+        # Create a bounding region
         constraints = Constraints()
 
         pc = PositionConstraint()
         pc.header.frame_id = "world"
-        pc.link_name = "tool0"  # or "wrist_3_link" if that’s your actual EE link
+        pc.link_name = "tool0"
         pc.weight = 1.0
-        # The bounding region: a small sphere around the target
+        # The bounding region --> small sphere around the target
         from shape_msgs.msg import SolidPrimitive
         from geometry_msgs.msg import Pose
 
         sphere = SolidPrimitive()
         sphere.type = SolidPrimitive.SPHERE
-        sphere.dimensions = [0.01]  # 1 cm radius
+        sphere.dimensions = [0.008]  # 8 mm radius
 
         sphere_pose = Pose()
         sphere_pose.position.x = pos[0]
@@ -107,12 +99,11 @@ class PredefinedObjectClient(Node):
         oc.header.frame_id = "world"
         oc.link_name = pc.link_name
         oc.weight = 1.0
-        # If you store a quaternion in ori, fill it here:
         oc.orientation.x = ori[0]
         oc.orientation.y = ori[1]
         oc.orientation.z = ori[2]
         oc.orientation.w = ori[3]
-        # Looser or stricter orientation tolerance in radians
+        # orientation tolerance
         oc.absolute_x_axis_tolerance = 0.1
         oc.absolute_y_axis_tolerance = 0.1
         oc.absolute_z_axis_tolerance = 0.1
@@ -129,7 +120,7 @@ class PredefinedObjectClient(Node):
         goal_msg.request = request
         goal_msg.planning_options = planning_options
 
-        # 3) Send the request
+        # Send the request
         self.get_logger().info(f"Sending MoveIt goal for object: {self.goal_name}")
         future = self._move_client.send_goal_async(goal_msg, feedback_callback=self.feedback_cb)
         future.add_done_callback(self.goal_response_cb)
@@ -159,10 +150,6 @@ class PredefinedObjectClient(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    # Option 1: parse the argument from sys.argv
-    # e.g. user does: ros2 run move_program predefined_object_navigation goal:=GreenCup
-    # In ROS 2, that usually becomes: --ros-args -p goal:=GreenCup
-    # But let's do a quick parse for demonstration:
     goal_name = "GreenCup"  # default
     for arg in sys.argv:
         if "goal:=" in arg:

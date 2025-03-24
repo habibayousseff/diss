@@ -111,11 +111,26 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/habibahassan/project/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/urcl_log_handler.cpp -o CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.s
 
+CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o: CMakeFiles/ur_robot_driver_plugin.dir/flags.make
+CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o: /home/habibahassan/project/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp
+CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o: CMakeFiles/ur_robot_driver_plugin.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/habibahassan/project/build/ur_robot_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o -MF CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o.d -o CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o -c /home/habibahassan/project/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp
+
+CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/habibahassan/project/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp > CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.i
+
+CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/habibahassan/project/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/robot_state_helper.cpp -o CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.s
+
 # Object files for target ur_robot_driver_plugin
 ur_robot_driver_plugin_OBJECTS = \
 "CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o" \
 "CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o" \
-"CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o"
+"CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o" \
+"CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o"
 
 # External object files for target ur_robot_driver_plugin
 ur_robot_driver_plugin_EXTERNAL_OBJECTS =
@@ -123,6 +138,7 @@ ur_robot_driver_plugin_EXTERNAL_OBJECTS =
 libur_robot_driver_plugin.so: CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o
 libur_robot_driver_plugin.so: CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o
 libur_robot_driver_plugin.so: CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o
+libur_robot_driver_plugin.so: CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o
 libur_robot_driver_plugin.so: CMakeFiles/ur_robot_driver_plugin.dir/build.make
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libcontroller_manager.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
@@ -188,6 +204,36 @@ libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/liburdf.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/x86_64-linux-gnu/liburdfdom_model.so.4.0
 libur_robot_driver_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0
 libur_robot_driver_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librmw.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcutils.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcpputils.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_introspection_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_typesupport_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics_msgs__rosidl_generator_py.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librclcpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librclcpp_lifecycle.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libpal_statistics.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librclcpp_lifecycle.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_lifecycle.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
@@ -219,26 +265,6 @@ libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_action.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libmessage_filters.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librclcpp.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/liblibstatistics_collector.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librmw_implementation.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libament_index_cpp.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so
-libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_yaml_param_parser.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
@@ -255,7 +281,27 @@ libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_type
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_py.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_yaml_param_parser.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtracetools.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librmw_implementation.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so
+libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libament_index_cpp.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcl_logging_interface.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
@@ -328,7 +374,7 @@ libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcpputils.so
 libur_robot_driver_plugin.so: /opt/ros/jazzy/lib/librcutils.so
 libur_robot_driver_plugin.so: CMakeFiles/ur_robot_driver_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/habibahassan/project/build/ur_robot_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libur_robot_driver_plugin.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/habibahassan/project/build/ur_robot_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libur_robot_driver_plugin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ur_robot_driver_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

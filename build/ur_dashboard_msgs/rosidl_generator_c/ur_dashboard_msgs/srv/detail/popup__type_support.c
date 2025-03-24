@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "ur_dashboard_msgs/srv/detail/popup__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "ur_dashboard_msgs/srv/detail/popup__type_support.h"
 #include "ur_dashboard_msgs/srv/detail/popup__functions.h"
 #include "ur_dashboard_msgs/srv/detail/popup__struct.h"
 

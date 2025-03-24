@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "moveit_msgs/msg/detail/allowed_collision_matrix__functions.h"
-#include "moveit_msgs/msg/detail/allowed_collision_matrix__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "moveit_msgs/msg/detail/allowed_collision_matrix__struct.h"
 #include "moveit_msgs/msg/detail/allowed_collision_matrix__type_support.h"
 
 #ifdef __cplusplus

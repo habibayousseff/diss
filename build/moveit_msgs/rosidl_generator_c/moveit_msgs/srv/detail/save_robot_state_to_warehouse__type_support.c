@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "moveit_msgs/srv/detail/save_robot_state_to_warehouse__struct.h"
 #include "moveit_msgs/srv/detail/save_robot_state_to_warehouse__functions.h"
+#include "moveit_msgs/srv/detail/save_robot_state_to_warehouse__struct.h"
 #include "moveit_msgs/srv/detail/save_robot_state_to_warehouse__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 

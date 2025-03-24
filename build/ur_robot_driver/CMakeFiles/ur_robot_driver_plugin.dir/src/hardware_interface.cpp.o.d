@@ -346,19 +346,25 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp \
  /opt/ros/jazzy/include/hardware_interface/hardware_interface/component_parser.hpp \
  /opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp \
- /usr/include/c++/13/shared_mutex /usr/include/c++/13/variant \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/macros.hpp \
- /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/hardware_interface_return_values.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/lifecycle_state_names.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/trigger_type.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
+ /usr/include/c++/13/optional /usr/include/c++/13/shared_mutex \
+ /usr/include/c++/13/variant \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics_macros.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics_utils.hpp \
+ /usr/include/c++/13/atomic /usr/include/c++/13/map \
+ /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__struct.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__traits.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
  /usr/include/c++/13/codecvt /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
@@ -368,109 +374,43 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
  /usr/include/c++/13/bits/quoted_string.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
- /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
- /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
- /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
- /opt/ros/jazzy/include/rcl/rcl/rcl.h \
- /opt/ros/jazzy/include/rcl/rcl/init.h \
- /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
- /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
- /opt/ros/jazzy/include/realtime_tools/realtime_tools/async_function_handler.hpp \
- /usr/include/c++/13/atomic /usr/include/c++/13/thread \
- /usr/include/c++/13/bits/std_thread.h \
- /usr/include/c++/13/bits/this_thread_sleep.h \
- /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_helpers.hpp \
- /opt/ros/jazzy/include/ur_client_library/ur/ur_driver.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/rtde_client.h \
- /opt/ros/jazzy/include/ur_client_library/comm/pipeline.h \
- /opt/ros/jazzy/include/ur_client_library/comm/package.h \
- /opt/ros/jazzy/include/ur_client_library/comm/bin_parser.h \
- /usr/include/c++/13/bitset /usr/include/c++/13/cstring \
- /opt/ros/jazzy/include/ur_client_library/log.h \
- /opt/ros/jazzy/include/ur_client_library/helpers.h \
- /opt/ros/jazzy/include/ur_client_library/queue/readerwriterqueue.h \
- /usr/include/c++/13/cassert \
- /opt/ros/jazzy/include/ur_client_library/queue/atomicops.h \
- /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /usr/include/c++/13/fstream \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc \
- /opt/ros/jazzy/include/ur_client_library/rtde/package_header.h \
- /opt/ros/jazzy/include/ur_client_library/comm/package_serializer.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/rtde_package.h \
- /opt/ros/jazzy/include/ur_client_library/comm/stream.h \
- /usr/include/netdb.h /usr/include/netinet/in.h \
- /usr/include/x86_64-linux-gnu/sys/socket.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/x86_64-linux-gnu/bits/socket.h \
- /usr/include/x86_64-linux-gnu/bits/socket_type.h \
- /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
- /usr/include/x86_64-linux-gnu/asm/socket.h \
- /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h \
- /usr/include/x86_64-linux-gnu/asm/sockios.h \
- /usr/include/asm-generic/sockios.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/x86_64-linux-gnu/bits/socket2.h \
- /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/rpc/netdb.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_names.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_values.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics/static_circular_buffer.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
+ /usr/include/c++/13/csignal /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/netdb.h \
- /opt/ros/jazzy/include/ur_client_library/comm/tcp_socket.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/rtde_parser.h \
- /opt/ros/jazzy/include/ur_client_library/comm/parser.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/control_package_pause.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/control_package_setup_inputs.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/control_package_setup_outputs.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/control_package_start.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/data_package.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/get_urcontrol_version.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/request_protocol_version.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/text_message.h \
- /opt/ros/jazzy/include/ur_client_library/comm/producer.h \
- /opt/ros/jazzy/include/ur_client_library/rtde/rtde_writer.h \
- /opt/ros/jazzy/include/ur_client_library/ur/datatypes.h \
- /opt/ros/jazzy/include/ur_client_library/control/reverse_interface.h \
- /opt/ros/jazzy/include/ur_client_library/comm/tcp_server.h \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+ /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
@@ -479,49 +419,6 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /opt/ros/jazzy/include/ur_client_library/comm/control_mode.h \
- /opt/ros/jazzy/include/ur_client_library/ur/robot_receive_timeout.h \
- /opt/ros/jazzy/include/ur_client_library/control/trajectory_point_interface.h \
- /usr/include/c++/13/optional \
- /opt/ros/jazzy/include/ur_client_library/control/script_command_interface.h \
- /opt/ros/jazzy/include/ur_client_library/control/script_sender.h \
- /opt/ros/jazzy/include/ur_client_library/primary/robot_message/version_message.h \
- /opt/ros/jazzy/include/ur_client_library/primary/robot_message.h \
- /opt/ros/jazzy/include/ur_client_library/primary/primary_package.h \
- /opt/ros/jazzy/include/ur_client_library/primary/package_header.h \
- /home/habibahassan/project/src/Universal_Robots_ROS2_Driver/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp \
- /usr/include/c++/13/regex /usr/include/c++/13/stack \
- /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
- /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/bits/stl_stack.h \
- /usr/include/c++/13/bits/stl_map.h \
- /usr/include/c++/13/bits/regex_constants.h \
- /usr/include/c++/13/bits/regex_error.h \
- /usr/include/c++/13/bits/regex_automaton.h \
- /usr/include/c++/13/bits/regex_automaton.tcc \
- /usr/include/c++/13/bits/regex_scanner.h \
- /usr/include/c++/13/bits/regex_scanner.tcc \
- /usr/include/c++/13/bits/regex_compiler.h \
- /usr/include/c++/13/bits/regex_compiler.tcc \
- /usr/include/c++/13/bits/regex.h /usr/include/c++/13/bits/regex.tcc \
- /usr/include/c++/13/bits/regex_executor.h \
- /usr/include/c++/13/bits/regex_executor.tcc \
- /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
- /usr/include/c++/13/csignal /usr/include/signal.h \
- /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
- /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
- /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
- /usr/include/x86_64-linux-gnu/bits/sigaction.h \
- /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
- /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
- /usr/include/x86_64-linux-gnu/sys/ucontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigstack.h \
- /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
@@ -538,6 +435,7 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+ /usr/include/c++/13/cstring \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -576,13 +474,15 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp \
  /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
+ /usr/include/c++/13/bits/std_thread.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+ /usr/include/c++/13/thread /usr/include/c++/13/bits/this_thread_sleep.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp \
- /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
- /usr/include/c++/13/bits/list.tcc /usr/include/c++/13/map \
- /usr/include/c++/13/bits/stl_multimap.h \
+ /usr/include/c++/13/cassert /usr/include/c++/13/list \
+ /usr/include/c++/13/bits/stl_list.h /usr/include/c++/13/bits/list.tcc \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/waitable.hpp \
  /opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp \
@@ -591,6 +491,18 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp \
@@ -601,6 +513,7 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h \
  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/event.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp \
  /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
  /opt/ros/jazzy/include/rmw/rmw/incompatible_qos_events_statuses.h \
@@ -716,6 +629,8 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp \
@@ -753,6 +668,7 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
@@ -766,6 +682,7 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+ /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
  /opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h \
@@ -819,6 +736,128 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+ /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+ /opt/ros/jazzy/include/rcl/rcl/rcl.h \
+ /opt/ros/jazzy/include/rcl/rcl/init.h \
+ /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+ /opt/ros/jazzy/include/pal_statistics/registration_utils.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/macros.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/hardware_interface_return_values.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/lifecycle_state_names.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/trigger_type.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
+ /opt/ros/jazzy/include/realtime_tools/realtime_tools/async_function_handler.hpp \
+ /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_helpers.hpp \
+ /opt/ros/jazzy/include/ur_client_library/ur/ur_driver.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/rtde_client.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/pipeline.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/package.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/bin_parser.h \
+ /usr/include/c++/13/bitset \
+ /opt/ros/jazzy/include/ur_client_library/log.h \
+ /opt/ros/jazzy/include/ur_client_library/helpers.h \
+ /opt/ros/jazzy/include/ur_client_library/queue/readerwriterqueue.h \
+ /opt/ros/jazzy/include/ur_client_library/queue/atomicops.h \
+ /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/include/c++/13/fstream \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc \
+ /opt/ros/jazzy/include/ur_client_library/rtde/package_header.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/package_serializer.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/rtde_package.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/stream.h \
+ /usr/include/netdb.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/rpc/netdb.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/tcp_socket.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/rtde_parser.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/parser.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/control_package_pause.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/control_package_setup_inputs.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/control_package_setup_outputs.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/control_package_start.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/data_package.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/get_urcontrol_version.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/request_protocol_version.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/text_message.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/producer.h \
+ /opt/ros/jazzy/include/ur_client_library/rtde/rtde_writer.h \
+ /opt/ros/jazzy/include/ur_client_library/ur/datatypes.h \
+ /opt/ros/jazzy/include/ur_client_library/control/reverse_interface.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/tcp_server.h \
+ /opt/ros/jazzy/include/ur_client_library/comm/control_mode.h \
+ /opt/ros/jazzy/include/ur_client_library/ur/robot_receive_timeout.h \
+ /opt/ros/jazzy/include/ur_client_library/control/trajectory_point_interface.h \
+ /opt/ros/jazzy/include/ur_client_library/control/script_command_interface.h \
+ /opt/ros/jazzy/include/ur_client_library/control/script_sender.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/primary_client.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/abstract_primary_consumer.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/robot_message/version_message.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/robot_message.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/primary_package.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/package_header.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/robot_message/error_code_message.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/robot_state/kinematics_info.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/robot_state.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/primary_consumer.h \
+ /opt/ros/jazzy/include/ur_client_library/primary/primary_parser.h \
+ /home/habibahassan/project/src/Universal_Robots_ROS2_Driver/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp \
+ /usr/include/c++/13/regex /usr/include/c++/13/stack \
+ /usr/include/c++/13/bits/stl_stack.h \
+ /usr/include/c++/13/bits/regex_constants.h \
+ /usr/include/c++/13/bits/regex_error.h \
+ /usr/include/c++/13/bits/regex_automaton.h \
+ /usr/include/c++/13/bits/regex_automaton.tcc \
+ /usr/include/c++/13/bits/regex_scanner.h \
+ /usr/include/c++/13/bits/regex_scanner.tcc \
+ /usr/include/c++/13/bits/regex_compiler.h \
+ /usr/include/c++/13/bits/regex_compiler.tcc \
+ /usr/include/c++/13/bits/regex.h /usr/include/c++/13/bits/regex.tcc \
+ /usr/include/c++/13/bits/regex_executor.h \
+ /usr/include/c++/13/bits/regex_executor.tcc \
  /opt/ros/jazzy/include/std_srvs/std_srvs/srv/trigger.hpp \
  /opt/ros/jazzy/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
  /opt/ros/jazzy/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
@@ -891,13 +930,11 @@ CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o: \
  /home/habibahassan/project/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
- /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \

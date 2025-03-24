@@ -834,10 +834,29 @@ CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o: \
  /opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp \
  /opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_info.hpp \
  /opt/ros/jazzy/include/joint_limits/joint_limits/joint_limits.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/macros.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/version.h \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics_macros.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics_utils.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_names.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_values.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics/static_circular_buffer.hpp \
  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
@@ -862,6 +881,11 @@ CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o: \
  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+ /opt/ros/jazzy/include/pal_statistics/registration_utils.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/macros.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/version.h \
  /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_buffer.hpp \
  /opt/ros/jazzy/include/std_srvs/std_srvs/srv/trigger.hpp \
  /opt/ros/jazzy/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \

@@ -1,6 +1,11 @@
+/home/habibahassan/project/install/move_program/lib/move_program/param_publisher.py
 /home/habibahassan/project/install/move_program/lib/move_program/predefined_object_navigation.py
+/home/habibahassan/project/install/move_program/lib/move_program/nav.py
+/home/habibahassan/project/install/move_program/lib/move_program/unified_llm_nav.py
+/home/habibahassan/project/install/move_program/lib/move_program/llm_interface_node.py
 /home/habibahassan/project/install/move_program/lib/move_program/collison_objects.py
 /home/habibahassan/project/install/move_program/lib/move_program/ee_pos.py
+/home/habibahassan/project/install/move_program/lib/move_program/robot_description_publisher.py
 /home/habibahassan/project/install/move_program/lib/move_program/move_to_pose.py
 /home/habibahassan/project/install/move_program/lib/move_program/trial_code.py
 /home/habibahassan/project/install/move_program/lib/move_program/trial_with_launch.py

@@ -1,0 +1,72 @@
+[  4%] Built target gtest_main
+[  8%] Built target gtest
+[ 95%] Built target moveit_setup_srdf_plugins
+[100%] Built target test_srdf
+-- Install configuration: "Release"
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so" to ""
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/srdf_step.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/robot_poses.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/end_effectors_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/kinematic_chain_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/group_edit_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/rotated_header_view.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/group_meta_config.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/kinematic_chain_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/virtual_joints.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/virtual_joints_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/passive_joints_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/end_effectors.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/default_collisions_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/robot_poses_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/passive_joints.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/end_effectors_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/robot_poses.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/planning_groups.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/planning_groups_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/default_collisions_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/group_meta_config.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/passive_joints.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/srdf_step.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/collision_linear_model.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/passive_joints_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/virtual_joints.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/collision_linear_model.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/default_collisions.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/end_effectors.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/rotated_header_view.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/default_collisions.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/compute_default_collisions.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/group_edit_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/compute_default_collisions.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/collision_matrix_model.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/planning_groups_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/planning_groups.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/collision_matrix_model.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/virtual_joints_widget.hpp
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moveit_setup_srdf_plugins/robot_poses_widget.h
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.sh
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.dsv
+-- Up-to-date: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_srdf_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_srdf_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.sh
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.bash
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.sh
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.zsh
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.dsv
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.dsv
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/packages/moveit_setup_srdf_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_srdf_plugins
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsTargetsExport.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsTargetsExport-release.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig-version.cmake
+-- Installing: /home/habibahassan/project/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.xml

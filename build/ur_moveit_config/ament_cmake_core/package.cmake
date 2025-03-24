@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "ur_moveit_config")
-set(ur_moveit_config_VERSION "3.0.2")
+set(ur_moveit_config_VERSION "3.1.1")
 set(ur_moveit_config_MAINTAINER "Felix Exner <feex@universal-robots.com>, Rune Søe-Knudsen <rsk@universal-robots.com>, Universal Robots A/S <ros@universal-robots.com>")
 set(ur_moveit_config_BUILD_DEPENDS )
 set(ur_moveit_config_BUILDTOOL_DEPENDS "ament_cmake")

@@ -1213,7 +1213,10 @@ static char toplevel_type_raw_source[] =
   "# This action is for setting the robot into a desired mode (e.g. RUNNING) and safety mode into a\n"
   "# non-critical state (e.g. NORMAL or REDUCED), for example after a safety incident happened.\n"
   "\n"
-  "# goal\n"
+  "# Target modes can be one of\n"
+  "# - 3: ROBOT_MODE_POWER_OFF\n"
+  "# - 5: ROBOT_MODE_IDLE\n"
+  "# - 7: ROBOT_MODE_RUNNING\n"
   "int8 target_robot_mode\n"
   "\n"
   "# Stop program execution before restoring the target mode. Can be used together with 'play_program'.\n"
@@ -1249,7 +1252,7 @@ ur_dashboard_msgs__action__SetMode__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {ur_dashboard_msgs__action__SetMode__TYPE_NAME, 32, 32},
     {action_encoding, 6, 6},
-    {toplevel_type_raw_source, 946, 946},
+    {toplevel_type_raw_source, 1045, 1045},
   };
   return &source;
 }

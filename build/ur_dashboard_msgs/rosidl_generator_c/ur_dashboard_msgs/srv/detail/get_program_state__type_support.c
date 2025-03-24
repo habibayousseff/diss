@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "ur_dashboard_msgs/srv/detail/get_program_state__functions.h"
 #include "ur_dashboard_msgs/srv/detail/get_program_state__type_support.h"
+#include "ur_dashboard_msgs/srv/detail/get_program_state__functions.h"
 #include "ur_dashboard_msgs/srv/detail/get_program_state__struct.h"
 
 #ifdef __cplusplus

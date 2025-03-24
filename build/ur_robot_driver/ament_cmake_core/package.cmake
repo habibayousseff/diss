@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "ur_robot_driver")
-set(ur_robot_driver_VERSION "3.0.2")
+set(ur_robot_driver_VERSION "3.1.1")
 set(ur_robot_driver_MAINTAINER "Felix Exner <feex@universal-robots.com>, Rune Søe-Knudsen <rsk@universal-robots.com>, Universal Robots A/S <ros@universal-robots.com>")
 set(ur_robot_driver_BUILD_DEPENDS "backward_ros" "controller_manager" "controller_manager_msgs" "geometry_msgs" "hardware_interface" "pluginlib" "rclcpp" "rclcpp_lifecycle" "rclpy" "std_msgs" "std_srvs" "tf2_geometry_msgs" "ur_client_library" "ur_controllers" "ur_dashboard_msgs" "ur_description" "ur_msgs")
 set(ur_robot_driver_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")

@@ -2408,6 +2408,7 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
   /opt/ros/jazzy/include/hardware_interface/hardware_interface/component_parser.hpp \
   /opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp \
   /opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_info.hpp \
+  /opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp \
   /opt/ros/jazzy/include/hardware_interface/hardware_interface/macros.hpp \
   /opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp \
   /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/hardware_interface_return_values.hpp \
@@ -2443,6 +2444,29 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
   /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
   /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
   /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
+  /opt/ros/jazzy/include/pal_statistics/pal_statistics.hpp \
+  /opt/ros/jazzy/include/pal_statistics/pal_statistics_macros.hpp \
+  /opt/ros/jazzy/include/pal_statistics/pal_statistics_utils.hpp \
+  /opt/ros/jazzy/include/pal_statistics/registration_utils.hpp \
+  /opt/ros/jazzy/include/pal_statistics/static_circular_buffer.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__struct.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__traits.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__builder.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__struct.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__traits.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__type_support.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__builder.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__struct.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__traits.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__type_support.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__builder.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__struct.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__traits.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__type_support.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_names.hpp \
+  /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_values.hpp \
   /opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp \
   /opt/ros/jazzy/include/rcl/rcl/allocator.h \
   /opt/ros/jazzy/include/rcl/rcl/arguments.h \
@@ -2698,8 +2722,13 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
   /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
   /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
   /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
   /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
   /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
@@ -2819,6 +2848,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
   /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
   /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
   /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -3192,9 +3223,39 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:
 
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:
+
 /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h:
 
 /opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_names.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__type_support.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__traits.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__struct.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__builder.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__type_support.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__traits.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__traits.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__struct.hpp:
+
+/opt/ros/jazzy/include/pal_statistics/pal_statistics_macros.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h:
 
@@ -3221,6 +3282,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/hardware_interface_type_values.hpp:
 
 /opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:
+
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp:
 
 /opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:
 
@@ -3259,6 +3322,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h:
+
+/opt/ros/jazzy/include/pal_statistics/registration_utils.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
@@ -3566,6 +3631,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__struct.hpp:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
@@ -3672,6 +3739,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/rcl/rcl/domain_id.h:
 
+/opt/ros/jazzy/include/pal_statistics/pal_statistics.hpp:
+
 /opt/ros/jazzy/include/rcl/rcl/context.h:
 
 /opt/ros/jazzy/include/rcl/rcl/allocator.h:
@@ -3704,6 +3773,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
+/opt/ros/jazzy/include/pal_statistics/static_circular_buffer.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
@@ -3711,6 +3782,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/opt/ros/jazzy/include/pal_statistics/pal_statistics_utils.hpp:
 
 /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 
@@ -3920,6 +3993,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
 
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_values.hpp:
+
 /usr/include/c++/13/new:
 
 /opt/ros/jazzy/include/rmw/rmw/macros.h:
@@ -3937,6 +4012,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h:
+
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:
 
 /usr/include/c++/13/bits/range_access.h:
 
@@ -4030,6 +4107,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__type_support.hpp:
+
 /home/habibahassan/project/src/ros2_robotiq_gripper/robotiq_driver/src/crc_utils.cpp:
 
 /home/habibahassan/project/src/ros2_robotiq_gripper/robotiq_driver/include/robotiq_driver/fake/fake_driver.hpp:
@@ -4085,6 +4164,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 /usr/include/c++/13/string:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
 /usr/include/c++/13/bits/stl_bvector.h:
 
@@ -4354,6 +4435,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h:
 
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__struct.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:
 
 /usr/include/c++/13/bits/nested_exception.h:
@@ -4622,6 +4705,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/qos_overriding_options.hpp:
 
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp:
+
 /opt/ros/jazzy/include/rcl/rcl/client.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
@@ -4644,6 +4729,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp:
 
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__builder.hpp:
+
 /usr/include/endian.h:
 
 /home/habibahassan/project/install/serial/include/serial/v8stdint.h:
@@ -4662,6 +4749,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
 
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:
 
 /usr/include/c++/13/cstdlib:
@@ -4677,6 +4766,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 /opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
+
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
@@ -4731,6 +4822,8 @@ CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o: /home/habibahassan/p
 /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h:
 
 /opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
+
+/opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__traits.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 

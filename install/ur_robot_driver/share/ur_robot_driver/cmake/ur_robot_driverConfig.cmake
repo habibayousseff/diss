@@ -16,7 +16,7 @@ set(_ur_robot_driver_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT ur_robot_driver_FIND_QUIETLY)
-  message(STATUS "Found ur_robot_driver: 3.0.2 (${ur_robot_driver_DIR})")
+  message(STATUS "Found ur_robot_driver: 3.1.1 (${ur_robot_driver_DIR})")
 endif()
 
 # warn when using a deprecated package

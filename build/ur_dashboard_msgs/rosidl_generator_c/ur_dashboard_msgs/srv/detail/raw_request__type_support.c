@@ -6,8 +6,8 @@
 
 #include "rosidl_typesupport_interface/macros.h"
 #include "ur_dashboard_msgs/srv/detail/raw_request__struct.h"
-#include "ur_dashboard_msgs/srv/detail/raw_request__type_support.h"
 #include "ur_dashboard_msgs/srv/detail/raw_request__functions.h"
+#include "ur_dashboard_msgs/srv/detail/raw_request__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

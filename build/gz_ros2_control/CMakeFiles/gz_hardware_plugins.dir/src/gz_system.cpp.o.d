@@ -392,24 +392,28 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/joint_limits/joint_limits/joint_limits.hpp \
  /opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp \
  /usr/include/c++/13/shared_mutex \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/macros.hpp \
- /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/hardware_interface_return_values.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/hardware_interface_type_values.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/lifecycle_state_names.hpp \
- /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/trigger_type.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics_macros.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics.hpp \
+ /opt/ros/jazzy/include/pal_statistics/pal_statistics_utils.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__struct.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__traits.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
  /usr/include/c++/13/codecvt \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistic__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics__type_support.hpp \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
@@ -428,148 +432,17 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h \
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
- /opt/ros/jazzy/include/rcl/rcl/time.h \
- /opt/ros/jazzy/include/rcl/rcl/allocator.h \
- /opt/ros/jazzy/include/rcl/rcl/macros.h \
- /opt/ros/jazzy/include/rcl/rcl/types.h \
- /opt/ros/jazzy/include/rmw/rmw/types.h \
- /opt/ros/jazzy/include/rcutils/rcutils/logging.h \
- /opt/ros/jazzy/include/rcutils/rcutils/error_handling.h \
- /opt/ros/jazzy/include/rcutils/rcutils/snprintf.h \
- /opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h \
- /opt/ros/jazzy/include/rcutils/rcutils/time.h \
- /opt/ros/jazzy/include/rcutils/rcutils/types.h \
- /opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h \
- /opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h \
- /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h \
- /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h \
- /opt/ros/jazzy/include/rcutils/rcutils/qsort.h \
- /opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h \
- /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h \
- /opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h \
- /opt/ros/jazzy/include/rmw/rmw/visibility_control.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_lost.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/matched.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
- /opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
- /opt/ros/jazzy/include/rmw/rmw/init.h \
- /opt/ros/jazzy/include/rmw/rmw/init_options.h \
- /opt/ros/jazzy/include/rmw/rmw/discovery_options.h \
- /opt/ros/jazzy/include/rmw/rmw/macros.h \
- /opt/ros/jazzy/include/rmw/rmw/ret_types.h \
- /opt/ros/jazzy/include/rmw/rmw/domain_id.h \
- /opt/ros/jazzy/include/rmw/rmw/localhost.h \
- /opt/ros/jazzy/include/rmw/rmw/security_options.h \
- /opt/ros/jazzy/include/rmw/rmw/serialized_message.h \
- /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h \
- /opt/ros/jazzy/include/rmw/rmw/time.h \
- /opt/ros/jazzy/include/rcl/rcl/visibility_control.h \
- /opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp \
- /opt/ros/jazzy/include/rcl/rcl/node.h \
- /opt/ros/jazzy/include/rcl/rcl/arguments.h \
- /opt/ros/jazzy/include/rcl/rcl/log_level.h \
- /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
- /opt/ros/jazzy/include/rcl/rcl/context.h \
- /opt/ros/jazzy/include/rcl/rcl/init_options.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h \
- /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
- /opt/ros/jazzy/include/rcl/rcl/node_options.h \
- /opt/ros/jazzy/include/rcl/rcl/domain_id.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h \
- /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.h \
- /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h \
- /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
- /opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp \
- /opt/ros/jazzy/include/rcutils/rcutils/logging_macros.h \
- /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp \
- /usr/include/c++/13/typeindex /opt/ros/jazzy/include/rcl/rcl/wait.h \
- /opt/ros/jazzy/include/rcl/rcl/client.h \
- /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
- /opt/ros/jazzy/include/rmw/rmw/event_callback_type.h \
- /opt/ros/jazzy/include/rcl/rcl/publisher.h \
- /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
- /opt/ros/jazzy/include/rcl/rcl/service.h \
- /opt/ros/jazzy/include/rcl/rcl/subscription.h \
- /opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support_interface.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/uchar.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_type.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h \
- /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h \
- /opt/ros/jazzy/include/rmw/rmw/features.h \
- /opt/ros/jazzy/include/rmw/rmw/message_sequence.h \
- /opt/ros/jazzy/include/rcl/rcl/timer.h \
- /opt/ros/jazzy/include/rmw/rmw/rmw.h \
- /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
- /opt/ros/jazzy/include/rmw/rmw/event.h \
- /opt/ros/jazzy/include/rmw/rmw/publisher_options.h \
- /opt/ros/jazzy/include/rmw/rmw/qos_profiles.h \
- /opt/ros/jazzy/include/rmw/rmw/subscription_options.h \
- /opt/ros/jazzy/include/rcl/rcl/event.h \
- /opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp \
- /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
- /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
- /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
- /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
- /opt/ros/jazzy/include/rcl/rcl/rcl.h \
- /opt/ros/jazzy/include/rcl/rcl/init.h \
- /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
- /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
- /opt/ros/jazzy/include/realtime_tools/realtime_tools/async_function_handler.hpp \
- /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_helpers.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_names.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_names__type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/statistics_values.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__struct.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__builder.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__traits.hpp \
+ /opt/ros/jazzy/include/pal_statistics_msgs/pal_statistics_msgs/msg/detail/statistics_values__type_support.hpp \
+ /opt/ros/jazzy/include/pal_statistics/static_circular_buffer.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -612,6 +485,7 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -637,6 +511,44 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
  /opt/ros/jazzy/include/rcl/rcl/error_handling.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/error_handling.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/snprintf.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h \
+ /opt/ros/jazzy/include/rcl/rcl/types.h \
+ /opt/ros/jazzy/include/rmw/rmw/types.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/logging.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/time.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/qsort.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h \
+ /opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h \
+ /opt/ros/jazzy/include/rmw/rmw/visibility_control.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_lost.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/matched.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+ /opt/ros/jazzy/include/rmw/rmw/init.h \
+ /opt/ros/jazzy/include/rmw/rmw/init_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/discovery_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/macros.h \
+ /opt/ros/jazzy/include/rmw/rmw/ret_types.h \
+ /opt/ros/jazzy/include/rmw/rmw/domain_id.h \
+ /opt/ros/jazzy/include/rmw/rmw/localhost.h \
+ /opt/ros/jazzy/include/rmw/rmw/security_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/serialized_message.h \
+ /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/time.h \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp \
  /opt/ros/jazzy/include/rcpputils/rcpputils/join.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_value.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
@@ -647,11 +559,77 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
  /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp \
+ /opt/ros/jazzy/include/rcl/rcl/node.h \
+ /opt/ros/jazzy/include/rcl/rcl/allocator.h \
+ /opt/ros/jazzy/include/rcl/rcl/arguments.h \
+ /opt/ros/jazzy/include/rcl/rcl/log_level.h \
+ /opt/ros/jazzy/include/rcl/rcl/macros.h \
+ /opt/ros/jazzy/include/rcl/rcl/visibility_control.h \
+ /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+ /opt/ros/jazzy/include/rcl/rcl/context.h \
+ /opt/ros/jazzy/include/rcl/rcl/init_options.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h \
+ /opt/ros/jazzy/include/rcl/rcl/guard_condition.h \
+ /opt/ros/jazzy/include/rcl/rcl/node_options.h \
+ /opt/ros/jazzy/include/rcl/rcl/domain_id.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h \
+ /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h \
+ /opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp \
+ /opt/ros/jazzy/include/rcpputils/rcpputils/visibility_control.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp \
+ /opt/ros/jazzy/include/rcutils/rcutils/logging_macros.h \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp \
+ /usr/include/c++/13/typeindex /opt/ros/jazzy/include/rcl/rcl/wait.h \
+ /opt/ros/jazzy/include/rcl/rcl/client.h \
+ /opt/ros/jazzy/include/rcl/rcl/event_callback.h \
+ /opt/ros/jazzy/include/rmw/rmw/event_callback_type.h \
+ /opt/ros/jazzy/include/rcl/rcl/publisher.h \
+ /opt/ros/jazzy/include/rcl/rcl/time.h \
+ /opt/ros/jazzy/include/rcl/rcl/service_introspection.h \
+ /opt/ros/jazzy/include/rcl/rcl/service.h \
+ /opt/ros/jazzy/include/rcl/rcl/subscription.h \
+ /opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support_interface.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/uchar.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_type.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h \
+ /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h \
+ /opt/ros/jazzy/include/rmw/rmw/features.h \
+ /opt/ros/jazzy/include/rmw/rmw/message_sequence.h \
+ /opt/ros/jazzy/include/rcl/rcl/timer.h \
+ /opt/ros/jazzy/include/rmw/rmw/rmw.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+ /opt/ros/jazzy/include/rmw/rmw/event.h \
+ /opt/ros/jazzy/include/rmw/rmw/publisher_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/qos_profiles.h \
+ /opt/ros/jazzy/include/rmw/rmw/subscription_options.h \
+ /opt/ros/jazzy/include/rcl/rcl/event.h \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/contexts/default_context.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/waitable.hpp \
  /opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp \
@@ -660,6 +638,18 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp \
@@ -670,6 +660,7 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h \
  /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/event.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp \
  /opt/ros/jazzy/include/rcl/rcl/logging_rosout.h \
  /opt/ros/jazzy/include/rmw/rmw/incompatible_qos_events_statuses.h \
@@ -802,6 +793,7 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
@@ -815,6 +807,7 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+ /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
  /opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h \
@@ -868,6 +861,44 @@ CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+ /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+ /opt/ros/jazzy/include/rcl/rcl/rcl.h \
+ /opt/ros/jazzy/include/rcl/rcl/init.h \
+ /opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+ /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+ /opt/ros/jazzy/include/pal_statistics/registration_utils.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/macros.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/hardware_interface_return_values.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/hardware_interface_type_values.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/lifecycle_state_names.hpp \
+ /opt/ros/jazzy/include/hardware_interface/hardware_interface/types/trigger_type.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp \
+ /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
+ /opt/ros/jazzy/include/realtime_tools/realtime_tools/async_function_handler.hpp \
+ /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_helpers.hpp \
  /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/imu.pb.h \
  /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/details/imu.pb.h \
  /opt/ros/jazzy/opt/gz_msgs_vendor/include/gz/msgs10/gz/msgs/vector3d.pb.h \
