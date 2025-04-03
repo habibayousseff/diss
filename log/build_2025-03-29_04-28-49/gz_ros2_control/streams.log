@@ -1,0 +1,35 @@
+[1.389s] Invoking command in '/home/habibahassan/project/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/gz_ros2_control -- -j8 -l8
+[1.730s] [ 50%] Built target gz_ros2_control-system
+[2.020s] [100%] Built target gz_hardware_plugins
+[2.231s] Invoked command in '/home/habibahassan/project/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/gz_ros2_control -- -j8 -l8
+[2.238s] Invoking command in '/home/habibahassan/project/build/gz_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/gz_ros2_control
+[2.322s] -- Install configuration: ""
+[2.323s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+[2.324s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/include
+[2.324s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/include/gz_ros2_control
+[2.324s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/include/gz_ros2_control/gz_system.hpp
+[2.325s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control_plugin.hpp
+[2.325s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp
+[2.325s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh
+[2.327s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv
+[2.332s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+[2.332s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/gz_hardware_plugins.xml
+[2.333s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control
+[2.333s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control
+[2.333s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh
+[2.333s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv
+[2.333s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh
+[2.334s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv
+[2.334s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash
+[2.334s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh
+[2.334s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh
+[2.335s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv
+[2.335s] -- Installing: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/package.dsv
+[2.335s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control
+[2.335s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control
+[2.335s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.336s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[2.336s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake
+[2.336s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake
+[2.336s] -- Up-to-date: /home/habibahassan/project/install/gz_ros2_control/share/gz_ros2_control/package.xml
+[2.351s] Invoked command in '/home/habibahassan/project/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/gz_ros2_control
