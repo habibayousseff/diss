@@ -1,0 +1,19 @@
+[3.378s] Invoking command in '/home/habibahassan/project/src/moveit2/moveit_configs_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habibahassan/project/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/habibahassan/project/build/moveit_configs_utils/build install --record /home/habibahassan/project/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[4.598s] running egg_info
+[4.710s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[4.717s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[4.717s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[4.717s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[5.120s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[5.140s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[5.146s] running build
+[5.149s] running build_py
+[5.153s] running install
+[5.166s] running install_lib
+[5.414s] running install_data
+[5.421s] running install_egg_info
+[5.616s] removing '/home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils-2.13.0-py3.12.egg-info' (and everything under it)
+[5.617s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages/moveit_configs_utils-2.13.0-py3.12.egg-info
+[5.617s] running install_scripts
+[5.859s] writing list of installed files to '/home/habibahassan/project/build/moveit_configs_utils/install.log'
+[5.981s] Invoked command in '/home/habibahassan/project/src/moveit2/moveit_configs_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/habibahassan/project/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/habibahassan/project/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/habibahassan/project/build/moveit_configs_utils/build install --record /home/habibahassan/project/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

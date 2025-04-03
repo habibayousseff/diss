@@ -1,0 +1,20 @@
+[1.890s] Invoking command in '/home/habibahassan/project/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/ur_description -- -j8 -l8
+[1.999s] Invoked command in '/home/habibahassan/project/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/ur_description -- -j8 -l8
+[2.018s] Invoking command in '/home/habibahassan/project/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/ur_description
+[2.030s] -- Install configuration: ""
+[2.030s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[2.031s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[2.031s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[2.031s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[2.031s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/environment/path.sh
+[2.031s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/environment/path.dsv
+[2.031s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/local_setup.bash
+[2.037s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/local_setup.sh
+[2.058s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/local_setup.zsh
+[2.061s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/local_setup.dsv
+[2.065s] -- Installing: /home/habibahassan/project/install/ur_description/share/ur_description/package.dsv
+[2.069s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[2.070s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[2.076s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[2.077s] -- Up-to-date: /home/habibahassan/project/install/ur_description/share/ur_description/package.xml
+[2.081s] Invoked command in '/home/habibahassan/project/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/ur_description

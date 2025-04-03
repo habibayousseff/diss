@@ -1,0 +1,23 @@
+[  0%] Built target moveit_msgs__rosidl_generator_type_description
+[  0%] Built target ament_cmake_python_copy_moveit_msgs
+[ 29%] Built target moveit_msgs__rosidl_generator_c
+running egg_info
+writing moveit_msgs.egg-info/PKG-INFO
+writing dependency_links to moveit_msgs.egg-info/dependency_links.txt
+writing top-level names to moveit_msgs.egg-info/top_level.txt
+reading manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+writing manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+[ 29%] Built target ament_cmake_python_build_moveit_msgs_egg
+[ 39%] Built target moveit_msgs__rosidl_typesupport_c
+[ 49%] Built target moveit_msgs__rosidl_typesupport_introspection_c
+[ 59%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c
+[ 59%] Built target moveit_msgs__cpp
+[ 69%] Built target moveit_msgs__rosidl_typesupport_cpp
+[ 79%] Built target moveit_msgs__rosidl_typesupport_introspection_cpp
+[ 89%] Built target moveit_msgs__rosidl_typesupport_fastrtps_cpp
+[ 89%] Built target moveit_msgs
+[ 89%] Built target moveit_msgs__py
+[ 99%] Built target moveit_msgs__rosidl_generator_py
+[ 99%] Built target moveit_msgs_s__rosidl_typesupport_fastrtps_c
+[ 99%] Built target moveit_msgs_s__rosidl_typesupport_c
+[100%] Built target moveit_msgs_s__rosidl_typesupport_introspection_c

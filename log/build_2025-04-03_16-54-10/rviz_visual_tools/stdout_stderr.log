@@ -1,0 +1,27 @@
+[  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps
+[  0%] Built target gtest_autogen_timestamp_deps
+[  2%] Built target rviz_visual_tools_gui_autogen
+[  4%] Built target gtest_autogen
+[ 16%] Built target rviz_visual_tools_gui
+[ 25%] Built target gtest
+[ 25%] Built target gtest_main_autogen_timestamp_deps
+[ 25%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps
+[ 27%] Built target gtest_main_autogen
+[ 29%] Built target rviz_visual_tools_remote_control_autogen
+[ 37%] Built target gtest_main
+[ 45%] Built target rviz_visual_tools_remote_control
+[ 45%] Built target rviz_visual_tools_autogen_timestamp_deps
+[ 47%] Built target rviz_visual_tools_autogen
+[ 58%] Built target rviz_visual_tools
+[ 58%] Built target rviz_visual_tools_imarker_simple_autogen_timestamp_deps
+[ 58%] Built target rviz_visual_tools_rvt_test_autogen_timestamp_deps
+[ 60%] Built target rviz_visual_tools_imarker_simple_autogen
+[ 62%] Built target rviz_visual_tools_rvt_test_autogen
+[ 70%] Built target rviz_visual_tools_imarker_simple
+[ 79%] Built target rviz_visual_tools_rvt_test
+[ 79%] Built target rviz_visual_tools_imarker_simple_demo_autogen_timestamp_deps
+[ 79%] Built target rviz_visual_tools_demo_autogen_timestamp_deps
+[ 81%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[ 83%] Built target rviz_visual_tools_demo_autogen
+[ 91%] Built target rviz_visual_tools_imarker_simple_demo
+[100%] Built target rviz_visual_tools_demo

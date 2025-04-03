@@ -1,0 +1,3 @@
+gmake[2]: *** [test/unit_tests/CMakeFiles/unittest_trajectory_generator_circ.dir/build.make:381: test/unit_tests/CMakeFiles/unittest_trajectory_generator_circ.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:780: test/unit_tests/CMakeFiles/unittest_trajectory_generator_circ.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
