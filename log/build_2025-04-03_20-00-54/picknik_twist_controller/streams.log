@@ -1,0 +1,34 @@
+[0.341s] Invoking command in '/home/habibahassan/project/build/picknik_twist_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/picknik_twist_controller -- -j8 -l8
+[1.241s] [100%] Built target picknik_twist_controller
+[1.496s] Invoked command in '/home/habibahassan/project/build/picknik_twist_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/picknik_twist_controller -- -j8 -l8
+[1.519s] Invoking command in '/home/habibahassan/project/build/picknik_twist_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/picknik_twist_controller
+[1.664s] -- Install configuration: ""
+[1.698s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/controller_plugins.xml
+[1.699s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/lib/libpicknik_twist_controller.so
+[1.699s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/include
+[1.699s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/include/picknik_twist_controller
+[1.700s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/include/picknik_twist_controller/picknik_twist_controller.hpp
+[1.700s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/include/picknik_twist_controller/visibility_control.h
+[1.700s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/controller_plugins.xml
+[1.700s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/library_path.sh
+[1.701s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/library_path.dsv
+[1.701s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/ament_index/resource_index/package_run_dependencies/picknik_twist_controller
+[1.701s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/ament_index/resource_index/parent_prefix_path/picknik_twist_controller
+[1.702s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/ament_prefix_path.sh
+[1.702s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/ament_prefix_path.dsv
+[1.702s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/path.sh
+[1.702s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/environment/path.dsv
+[1.703s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/local_setup.bash
+[1.703s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/local_setup.sh
+[1.704s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/local_setup.zsh
+[1.704s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/local_setup.dsv
+[1.705s] -- Installing: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/package.dsv
+[1.705s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/ament_index/resource_index/packages/picknik_twist_controller
+[1.706s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/picknik_twist_controller
+[1.711s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.712s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.712s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.712s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/picknik_twist_controllerConfig.cmake
+[1.713s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/cmake/picknik_twist_controllerConfig-version.cmake
+[1.714s] -- Up-to-date: /home/habibahassan/project/install/picknik_twist_controller/share/picknik_twist_controller/package.xml
+[2.026s] Invoked command in '/home/habibahassan/project/build/picknik_twist_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/picknik_twist_controller
