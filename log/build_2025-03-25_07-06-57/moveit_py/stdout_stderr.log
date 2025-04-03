@@ -1,0 +1,100 @@
+[  0%] Built target ament_cmake_python_copy_moveit
+[ 12%] Built target moveit_py_utils
+[ 37%] Built target planning
+[100%] Built target core
+running egg_info
+writing moveit.egg-info/PKG-INFO
+writing dependency_links to moveit.egg-info/dependency_links.txt
+writing top-level names to moveit.egg-info/top_level.txt
+reading manifest file 'moveit.egg-info/SOURCES.txt'
+writing manifest file 'moveit.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_moveit_egg
+-- Install configuration: ""
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/libmoveit_py_utils.so.
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_py/lib/libmoveit_py_utils.so." to ""
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/libmoveit_py_utils.so
+-- Installing: /home/habibahassan/project/install/moveit_py/include/moveit_py
+-- Installing: /home/habibahassan/project/install/moveit_py/include/moveit_py/moveit_py
+-- Installing: /home/habibahassan/project/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils
+-- Installing: /home/habibahassan/project/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/copy_ros_msg.hpp
+-- Installing: /home/habibahassan/project/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/ros_msg_typecasters.h
+-- Installing: /home/habibahassan/project/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/copy_ros_msg.h
+-- Installing: /home/habibahassan/project/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/ros_msg_typecasters.hpp
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/environment/pythonpath.sh
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/environment/pythonpath.dsv
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit-2.13.0-py3.12.egg-info
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit-2.13.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit-2.13.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit-2.13.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit-2.13.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/policies
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/policies/__init__.py
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/policies/policy.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/policies/policy.py
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/policies/__init__.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/__init__.py
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/py.typed
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/planning.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/utils.py
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/collision_detection.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/planning_interface.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/planning_scene.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/controller_manager.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/kinematic_constraints.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/robot_state.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/__init__.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/robot_model.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core/robot_trajectory.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/README.md
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/utils.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/__init__.py
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/teleop.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/ps4_dualshock.py
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/__init__.py
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/ps4_dualshock.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/__init__.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/teleop.py
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/__init__.pyi
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/README.md
+Listing '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit'...
+Compiling '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/__init__.py'...
+Listing '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core'...
+Listing '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/policies'...
+Compiling '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/policies/__init__.py'...
+Compiling '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/policies/policy.py'...
+Listing '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client'...
+Compiling '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/__init__.py'...
+Listing '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices'...
+Compiling '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/__init__.py'...
+Compiling '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/ps4_dualshock.py'...
+Compiling '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/teleop.py'...
+Compiling '/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/utils.py'...
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core.cpython-312-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/core.cpython-312-x86_64-linux-gnu.so" to ""
+-- Installing: /home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/planning.cpython-312-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/habibahassan/project/install/moveit_py/lib/python3.12/site-packages/moveit/planning.cpython-312-x86_64-linux-gnu.so" to ""
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/environment/library_path.sh
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/environment/library_path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_py/share/ament_index/resource_index/package_run_dependencies/moveit_py
+-- Installing: /home/habibahassan/project/install/moveit_py/share/ament_index/resource_index/parent_prefix_path/moveit_py
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/environment/ament_prefix_path.sh
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/environment/ament_prefix_path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/environment/path.sh
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/environment/path.dsv
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/local_setup.bash
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/local_setup.sh
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/local_setup.zsh
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/local_setup.dsv
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/package.dsv
+-- Installing: /home/habibahassan/project/install/moveit_py/share/ament_index/resource_index/packages/moveit_py
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport.cmake
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport-noconfig.cmake
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/cmake/moveit_pyConfig.cmake
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/cmake/moveit_pyConfig-version.cmake
+-- Installing: /home/habibahassan/project/install/moveit_py/share/moveit_py/package.xml

@@ -1,6 +1,8 @@
 /home/habibahassan/project/install/move_program/lib/move_program/param_publisher.py
 /home/habibahassan/project/install/move_program/lib/move_program/predefined_object_navigation.py
 /home/habibahassan/project/install/move_program/lib/move_program/nav.py
+/home/habibahassan/project/install/move_program/lib/move_program/gripper_control.py
+/home/habibahassan/project/install/move_program/lib/move_program/pick_motion.py
 /home/habibahassan/project/install/move_program/lib/move_program/unified_llm_nav.py
 /home/habibahassan/project/install/move_program/lib/move_program/llm_interface_node.py
 /home/habibahassan/project/install/move_program/lib/move_program/collison_objects.py

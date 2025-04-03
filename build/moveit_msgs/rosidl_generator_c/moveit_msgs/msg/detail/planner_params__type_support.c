@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "moveit_msgs/msg/detail/planner_params__functions.h"
 #include "moveit_msgs/msg/detail/planner_params__type_support.h"
+#include "moveit_msgs/msg/detail/planner_params__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/msg/detail/planner_params__struct.h"
 

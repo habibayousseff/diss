@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "moveit_msgs/msg/detail/cost_source__functions.h"
 #include "moveit_msgs/msg/detail/cost_source__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/msg/detail/cost_source__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "moveit_msgs/msg/detail/cost_source__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,29 +1,49 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-
+  <!-- Include the standard UR arm joint control description -->
   <xacro:include filename="$(find ur_description)/urdf/inc/ur_joint_control.xacro" />
 
   <xacro:macro name="ur_ros2_control" params="
     name
     tf_prefix
     transmission_hw_interface:=hardware_interface/PositionJointInterface
-    initial_positions:=${dict(shoulder_pan_joint=0.0,shoulder_lift_joint=-1.57,elbow_joint=0.0,wrist_1_joint=-1.57,wrist_2_joint=0.0,wrist_3_joint=0.0)}
-    ">
+    initial_positions:=${dict(
+      shoulder_pan_joint=0.0,
+      shoulder_lift_joint=-1.57,
+      elbow_joint=0.0,
+      wrist_1_joint=-1.57,
+      wrist_2_joint=0.0,
+      wrist_3_joint=0.0
+    )}
+  ">
 
-
-    <!-- Add URDF transmission elements (for ros_control) -->
-    <!--<xacro:ur_arm_transmission prefix="${prefix}" hw_interface="${transmission_hw_interface}" />-->
-    <!-- Placeholder for ros2_control transmission which don't yet exist -->
-
+    <!-- Single hardware plugin for everything -->
     <ros2_control name="${name}" type="system">
       <hardware>
         <plugin>gz_ros2_control/GazeboSimSystem</plugin>
       </hardware>
 
+      <!-- UR Arm Joints -->
       <xacro:ur_joint_control_description
         tf_prefix="${tf_prefix}"
         initial_positions="${initial_positions}"
       />
-      </ros2_control>
+
+      <!-- Gripper Finger Joints -->
+      <joint name="right_finger_joint">
+        <command_interface name="position"/>
+        <param name="p">100.0</param>
+        <param name="i">1.0</param>
+        <param name="d">10.0</param>
+        <state_interface name="position">
+          <param name="initial_value">0.004</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+        <state_interface name="acceleration"/>
+        <state_interface name="deceleration"/>
+      </joint>
+    </ros2_control>
   </xacro:macro>
 </robot>
+

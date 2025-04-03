@@ -1,4 +1,0 @@
-gmake[2]: *** Deleting file 'libgz_ros2_control-system.so'
-gmake[2]: *** [CMakeFiles/gz_ros2_control-system.dir/build.make:336: libgz_ros2_control-system.so] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gz_ros2_control-system.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

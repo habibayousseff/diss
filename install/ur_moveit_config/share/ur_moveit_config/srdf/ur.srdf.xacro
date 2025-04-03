@@ -7,5 +7,5 @@
   <xacro:include filename="$(find ur_moveit_config)/srdf/ur_macro.srdf.xacro"/>
 
   <xacro:ur_srdf/>
-
+  
 </robot>

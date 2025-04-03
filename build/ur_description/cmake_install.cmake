@@ -43,17 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE DIRECTORY FILES
-    "/home/habibahassan/project/src/Universal_Robots_ROS2_Description/config"
-    "/home/habibahassan/project/src/Universal_Robots_ROS2_Description/launch"
-    "/home/habibahassan/project/src/Universal_Robots_ROS2_Description/meshes"
-    "/home/habibahassan/project/src/Universal_Robots_ROS2_Description/rviz"
-    "/home/habibahassan/project/src/Universal_Robots_ROS2_Description/urdf"
-    "/home/habibahassan/project/src/Universal_Robots_ROS2_Description/test"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/habibahassan/project/build/ur_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_description")
 endif()
 

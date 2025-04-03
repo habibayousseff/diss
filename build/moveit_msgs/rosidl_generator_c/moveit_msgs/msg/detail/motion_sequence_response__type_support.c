@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "moveit_msgs/msg/detail/motion_sequence_response__functions.h"
 #include "moveit_msgs/msg/detail/motion_sequence_response__type_support.h"
 #include "moveit_msgs/msg/detail/motion_sequence_response__struct.h"
-#include "moveit_msgs/msg/detail/motion_sequence_response__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

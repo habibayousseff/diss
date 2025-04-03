@@ -1,6 +1,0 @@
-[0mmoveit_servo: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/demo_pose.dir/build.make:76: CMakeFiles/demo_pose.dir/demos/cpp_interface/demo_pose.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/demo_pose.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "ur_dashboard_msgs/action/detail/set_mode__type_support.h"
-#include "ur_dashboard_msgs/action/detail/set_mode__struct.h"
 #include "ur_dashboard_msgs/action/detail/set_mode__functions.h"
+#include "ur_dashboard_msgs/action/detail/set_mode__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

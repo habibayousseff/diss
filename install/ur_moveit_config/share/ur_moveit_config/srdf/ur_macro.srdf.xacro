@@ -13,6 +13,14 @@
     <group name="ur_manipulator">
       <chain base_link="base_link" tip_link="tool0" />
     </group>
+
+    <group name="gripper">
+      <joint name="right_finger_joint"/>  # Primary joint
+      <joint name="left_finger_joint"/>   # Mimic joint
+    </group>
+
+    <end_effector name="gripper_ee" parent_link="gripper_base" group="gripper"/>
+
     <!--GROUP STATES - Purpose - Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
     <group_state name="home" group="ur_manipulator">
       <joint name="elbow_joint" value="0" />
@@ -38,7 +46,14 @@
       <joint name="wrist_2_joint" value="-1.6" />
       <joint name="wrist_3_joint" value="-0.11" />
     </group_state>
-    <!--END EFFECTOR - Purpose - Represent information about an end effector.-->
+
+    <group_state name="open" group="gripper">
+      <joint name="right_finger_joint" value="0.004" />
+    </group_state>
+    <group_state name="close" group="gripper">
+      <joint name="right_finger_joint" value="0.085" />
+    </group_state>
+
     <!--VIRTUAL JOINT - Purpose - this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <!--DISABLE COLLISIONS - By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="base_link" link2="base_link_inertia" reason="Adjacent" />
@@ -52,6 +67,5 @@
     <disable_collisions link1="wrist_1_link" link2="wrist_2_link" reason="Adjacent" />
     <disable_collisions link1="wrist_1_link" link2="wrist_3_link" reason="Never" />
     <disable_collisions link1="wrist_2_link" link2="wrist_3_link" reason="Adjacent" />
-
   </xacro:macro>
 </robot>

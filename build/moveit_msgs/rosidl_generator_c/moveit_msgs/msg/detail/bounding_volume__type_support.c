@@ -6,8 +6,8 @@
 
 #include "moveit_msgs/msg/detail/bounding_volume__functions.h"
 #include "moveit_msgs/msg/detail/bounding_volume__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/msg/detail/bounding_volume__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

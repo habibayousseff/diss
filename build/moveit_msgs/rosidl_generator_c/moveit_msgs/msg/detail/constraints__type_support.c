@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "moveit_msgs/msg/detail/constraints__type_support.h"
-#include "moveit_msgs/msg/detail/constraints__struct.h"
 #include "moveit_msgs/msg/detail/constraints__functions.h"
+#include "moveit_msgs/msg/detail/constraints__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

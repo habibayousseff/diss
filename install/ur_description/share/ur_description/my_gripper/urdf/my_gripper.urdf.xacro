@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_gripper">
+
+  <!--
+    This xacro defines a simple pinch gripper with exactly ONE moving joint.
+    - The "base" of the gripper is attached to "wrist_3_link" via a fixed joint.
+    - The "finger" link moves along a single REVOLUTE joint from 0.0 (fully open) to, e.g., 0.5 rad (closed).
+  -->
+
+  <!-- xacro:macro so we can pass in the parent link name & other params. -->
+  <xacro:macro name="my_gripper_macro" params="parent_link origin_xyz origin_rpy">
+
+    <!-- 1) The base link (fixed to the parent link) -->
+    <link name="gripper_base_link">
+      <visual>
+        <geometry>
+          <!-- minimal geometry or a small box for the base -->
+          <box size="0.04 0.04 0.04"/>
+        </geometry>
+        <material><color rgba="0.8 0.8 0.8 1"/></material>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="0.04 0.04 0.04"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <mass value="0.1"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="1e-4" ixy="0" ixz="0" iyy="1e-4" iyz="0" izz="1e-4"/>
+      </inertial>
+    </link>
+
+    <joint name="gripper_base_joint" type="fixed">
+      <parent link="${parent_link}"/>
+      <child  link="gripper_base_link"/>
+      <origin xyz="${origin_xyz}" rpy="${origin_rpy}"/>
+    </joint>
+
+    <!-- 2) The moving finger link -->
+    <link name="gripper_finger_link">
+      <visual>
+        <geometry>
+          <box size="0.02 0.02 0.08"/>
+        </geometry>
+        <material><color rgba="0.9 0.1 0.1 1"/></material>
+        <origin xyz="0 0 0.04" rpy="0 0 0"/>  <!-- box center so it extends outward -->
+      </visual>
+      <collision>
+        <geometry>
+          <box size="0.02 0.02 0.08"/>
+        </geometry>
+        <origin xyz="0 0 0.04" rpy="0 0 0"/>
+      </collision>
+      <inertial>
+        <mass value="0.05"/>
+        <origin xyz="0 0 0.04" rpy="0 0 0"/>
+        <inertia ixx="1e-4" ixy="0" ixz="0" iyy="1e-4" iyz="0" izz="1e-4"/>
+      </inertial>
+    </link>
+
+    <joint name="gripper_finger_joint" type="revolute">
+      <parent link="gripper_base_link"/>
+      <child  link="gripper_finger_link"/>
+      <axis xyz="0 1 0"/>   <!-- rotates about Y axis, pick any axis you want -->
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <!-- set your own angle limits:  0 rad => open, 0.5 rad => closed -->
+      <limit effort="10" velocity="1.0" lower="0.0" upper="0.5" />
+    </joint>
+<!--
+    <ros2_control name="gripper_ros2_control" type="system">
+      <hardware>
+        <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+      </hardware>
+
+      <joint name="gripper_finger_joint">
+        <command_interface name="position">
+          <param name="min">0.0</param>
+          <param name="max">0.5</param>
+        </command_interface>
+
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+      </joint>
+
+    </ros2_control>
+
+    -->
+  </xacro:macro>
+</robot>

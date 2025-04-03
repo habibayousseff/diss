@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "moveit_msgs/action/detail/global_planner__type_support.h"
-#include "moveit_msgs/action/detail/global_planner__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "moveit_msgs/action/detail/global_planner__functions.h"
+#include "moveit_msgs/action/detail/global_planner__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "moveit_msgs/action/detail/global_planner__struct.h"
 
 #ifdef __cplusplus
 extern "C"
