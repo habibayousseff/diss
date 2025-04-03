@@ -1,0 +1,77 @@
+[0.251s] Invoking command in '/home/habibahassan/project/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/rviz_visual_tools -- -j8 -l8
+[0.890s] [  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps
+[0.923s] [  0%] Built target gtest_autogen_timestamp_deps
+[1.158s] [  2%] Built target rviz_visual_tools_gui_autogen
+[1.326s] [  4%] Built target gtest_autogen
+[1.666s] [ 16%] Built target rviz_visual_tools_gui
+[1.887s] [ 25%] Built target gtest
+[2.058s] [ 25%] Built target gtest_main_autogen_timestamp_deps
+[2.212s] [ 25%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps
+[2.394s] [ 27%] Built target gtest_main_autogen
+[2.631s] [ 29%] Built target rviz_visual_tools_remote_control_autogen
+[2.871s] [ 37%] Built target gtest_main
+[3.176s] [ 45%] Built target rviz_visual_tools_remote_control
+[3.333s] [ 45%] Built target rviz_visual_tools_autogen_timestamp_deps
+[3.556s] [ 47%] Built target rviz_visual_tools_autogen
+[3.825s] [ 58%] Built target rviz_visual_tools
+[3.992s] [ 58%] Built target rviz_visual_tools_imarker_simple_autogen_timestamp_deps
+[4.175s] [ 58%] Built target rviz_visual_tools_rvt_test_autogen_timestamp_deps
+[4.367s] [ 60%] Built target rviz_visual_tools_imarker_simple_autogen
+[4.573s] [ 62%] Built target rviz_visual_tools_rvt_test_autogen
+[4.826s] [ 70%] Built target rviz_visual_tools_imarker_simple
+[5.031s] [ 79%] Built target rviz_visual_tools_rvt_test
+[5.161s] [ 79%] Built target rviz_visual_tools_imarker_simple_demo_autogen_timestamp_deps
+[5.301s] [ 79%] Built target rviz_visual_tools_demo_autogen_timestamp_deps
+[5.493s] [ 81%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[5.724s] [ 83%] Built target rviz_visual_tools_demo_autogen
+[6.502s] [ 91%] Built target rviz_visual_tools_imarker_simple_demo
+[6.786s] [100%] Built target rviz_visual_tools_demo
+[7.473s] Invoked command in '/home/habibahassan/project/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/habibahassan/project/build/rviz_visual_tools -- -j8 -l8
+[7.479s] Invoking command in '/home/habibahassan/project/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/rviz_visual_tools
+[7.524s] -- Install configuration: ""
+[7.525s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+[7.528s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[7.529s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[7.531s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[7.535s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[7.538s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[7.542s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[7.544s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include
+[7.545s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include/rviz_visual_tools
+[7.546s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[7.547s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[7.547s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[7.548s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[7.549s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[7.550s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[7.551s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[7.551s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/launch
+[7.560s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[7.561s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[7.562s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[7.562s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[7.563s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[7.563s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[7.564s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[7.565s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[7.565s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[7.566s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[7.566s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[7.567s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[7.568s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[7.568s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[7.569s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[7.570s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[7.570s] -- Installing: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[7.571s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[7.571s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[7.572s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+[7.573s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-noconfig.cmake
+[7.573s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[7.574s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.575s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.575s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[7.576s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[7.576s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[7.578s] -- Up-to-date: /home/habibahassan/project/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[7.729s] Invoked command in '/home/habibahassan/project/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/habibahassan/project/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/habibahassan/project/build/rviz_visual_tools
